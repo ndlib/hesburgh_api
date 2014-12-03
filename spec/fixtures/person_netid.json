@@ -1,26 +1,26 @@
 {
-    people: [
-    {
-        id: "testid",
-        identifier_contexts: {
-            ldap: "uid",
-            staff_directory: "email"
-        },
-        identifier: "by_netid",
-        netid: "testid",
-        first_name: "Ulises",
-        last_name: "Oneil",
-        full_name: "Ulises Oneil",
-        ndguid: "ndguid",
-        position_title: "Software Guy",
-        campus_department: "Hesburgh Libraries",
-        primary_affiliation: "Staff",
-        staff_directory_id: 999,
-        contact_information: {
-            campus_address: "Hesburgh Library",
-            email: "testid@nd.edu",
-            phone: "(555) 555-5555"
+    "people": [
+        {
+            "campus_department": "Hesburgh Libraries",
+            "contact_information": {
+                "campus_address": "Hesburgh Library",
+                "email": "testid@nd.edu",
+                "phone": "(555) 555-5555"
+            },
+            "first_name": "Ulises",
+            "full_name": "Ulises Oneil",
+            "id": "testid",
+            "identifier": "by_netid",
+            "identifier_contexts": {
+                "ldap": "uid",
+                "staff_directory": "email"
+            },
+            "last_name": "Oneil",
+            "ndguid": "ndguid",
+            "netid": "testid",
+            "position_title": "Software Guy",
+            "primary_affiliation": "Staff",
+            "staff_directory_id": 999
         }
-    }
     ]
 }

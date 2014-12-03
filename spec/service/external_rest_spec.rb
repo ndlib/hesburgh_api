@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe ExternalRest do
 
-  let(:example_response) { eval(File.open(Rails.root.join('../spec', 'fixtures', 'example.json')).read).to_ostruct }
+  let(:example_response) { JSON.parse(File.open(Rails.root.join('../spec', 'fixtures', 'example.json')).read).to_ostruct }
 
   describe "::initialize" do
     context "with class default parameters" do
@@ -20,7 +20,7 @@ describe ExternalRest do
         expect(subject.path).to eq '/'
       end
     end
-  
+
     context "with custom parameters" do
       subject { ExternalRest.new(base_url: 'http://some.url.com', verb: 'put', path: '/test') }
 

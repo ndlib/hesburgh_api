@@ -1,34 +1,34 @@
 {
-    people: [
-    {
-        uid: "fake1",
-        first_name: "Robert",
-        last_name: "Franklin",
-        full_name: "Robert Franklin"
-    },
-    {
-        uid: "fake2",
-        first_name: "Robert",
-        last_name: "Austin",
-        full_name: "Robert Austin"
-    },
-    {
-        uid: "fake3",
-        first_name: "Robert",
-        last_name: "Frank",
-        full_name: "Robert Frank"
-    },
-    {
-        uid: "fake4",
-        first_name: "Robert",
-        last_name: "Chapman",
-        full_name: "Robert Chapman"
-    },
-    {
-        uid: "fake5",
-        first_name: "Robert",
-        last_name: "Keller",
-        full_name: "Robert Keller"
-    }
+    "people": [
+        {
+            "first_name": "Robert",
+            "full_name": "Robert Franklin",
+            "last_name": "Franklin",
+            "uid": "fake1"
+        },
+        {
+            "first_name": "Robert",
+            "full_name": "Robert Austin",
+            "last_name": "Austin",
+            "uid": "fake2"
+        },
+        {
+            "first_name": "Robert",
+            "full_name": "Robert Frank",
+            "last_name": "Frank",
+            "uid": "fake3"
+        },
+        {
+            "first_name": "Robert",
+            "full_name": "Robert Chapman",
+            "last_name": "Chapman",
+            "uid": "fake4"
+        },
+        {
+            "first_name": "Robert",
+            "full_name": "Robert Keller",
+            "last_name": "Keller",
+            "uid": "fake5"
+        }
     ]
 }

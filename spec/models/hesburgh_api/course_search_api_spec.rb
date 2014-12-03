@@ -3,7 +3,7 @@ require 'spec_helper'
 
 describe HesburghAPI::CourseSearchApi do
 
-    let(:example_response) { JSON.parse(eval(File.open(Rails.root.join('../spec', 'fixtures', 'course_by_crosslist_id_201410_11596.json')).read).to_json)}
+    let(:example_response) { JSON.parse(File.open(Rails.root.join('../spec', 'fixtures', 'course_by_crosslist_id_201410_11596.json')).read)}
     let(:subject) { HesburghAPI::CourseSearchApi }
 
     before(:each) do

@@ -2,8 +2,8 @@ require 'spec_helper'
 
 describe HesburghAPI::PersonSearch do
 
-    let(:example_response) { JSON.parse(eval(File.open(Rails.root.join('../spec', 'fixtures', 'person_netid.json')).read).to_json)}
-    let(:person_search_results) { JSON.parse(eval(File.open(Rails.root.join('../spec', 'fixtures', 'person_search_results.json')).read).to_json)}
+    let(:example_response) { JSON.parse(File.open(Rails.root.join('../spec', 'fixtures', 'person_netid.json')).read)}
+    let(:person_search_results) { JSON.parse(File.open(Rails.root.join('../spec', 'fixtures', 'person_search_results.json')).read)}
     let(:subject) { HesburghAPI::PersonSearch }
 
     describe "::find" do

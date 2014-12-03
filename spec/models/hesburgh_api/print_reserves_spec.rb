@@ -3,7 +3,7 @@ require 'spec_helper'
 
 describe HesburghAPI::PrintReserves do
 
-    let(:all_print_reserves) { JSON.parse(eval(File.open(Rails.root.join('../spec', 'fixtures', 'all_print_reserves.json')).read).to_json)}
+    let(:all_print_reserves) { JSON.parse(File.open(Rails.root.join('../spec', 'fixtures', 'all_print_reserves.json')).read)}
     let(:subject) { HesburghAPI::PrintReserves }
 
     describe :all do
@@ -37,11 +37,11 @@ describe HesburghAPI::PrintReserves do
 
 
     describe :find_by_bib_id_course_id do
-        
+
         before(:each) do
             expect(subject).to receive(:get_json).and_return(all_print_reserves)
         end
-            
+
         let(:record) { subject.find_by_bib_id_course_id('000846188', '201410_NZ') }
 
         it "returns an array " do
@@ -60,7 +60,7 @@ describe HesburghAPI::PrintReserves do
 
 
     describe :find_by_rta_id do
-        
+
         before(:each) do
             expect(subject).to receive(:get_json).and_return(all_print_reserves)
         end
