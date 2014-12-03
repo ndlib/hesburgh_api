@@ -1,0 +1,146 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3005/2.0/discovery/detail.json?auth_token=test&q=hcc_aleph000012199&vid=NDU
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: 'OK '
+    headers:
+      Cache-Control:
+      - must-revalidate, no-cache, max-age=0
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Request-Method:
+      - PUT, GET, POST, DELETE, OPTIONS
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge
+      X-Request-Id:
+      - e2911090098d0a33dceb7983d9f8bb20
+      X-Runtime:
+      - '0.321460'
+      Server:
+      - WEBrick/1.3.1 (Ruby/2.0.0/2014-02-24)
+      Date:
+      - Fri, 20 Jun 2014 16:51:37 GMT
+      Content-Length:
+      - '12303'
+      Connection:
+      - Keep-Alive
+    body:
+      encoding: UTF-8
+      string: '{"records":[{"id":"dedupmrg13765448","type":"book","display":{"title":["The
+        catcher in the rye : innocence under pressure"],"creator":{"fulltext":["Sanford
+        Pinsker"],"hierarchical":[["Sanford Pinsker"]]},"contributor":{"fulltext":[],"hierarchical":[]},"language":["eng"],"general_notes":[],"source":[],"subjects":{"fulltext":["Salinger,
+        J. D. [Jerome David], 1919-2010 Catcher in the rye","Caulfield, Holden [Fictitious
+        character]","Runaway teenagers in literature","Teenage boys in literature"],"hierarchical":[["Salinger,
+        J. D. [Jerome David], 1919-2010 Catcher in the rye"],["Caulfield, Holden [Fictitious
+        character]"],["Runaway teenagers in literature"],["Teenage boys in literature"]]},"series":[{"series_title":"Twayne''s
+        masterwork studies ","series_volume":"no. 114"}],"uniform_titles":{"fulltext":[],"hierarchical":[]},"description":["Sanford
+        Pinsker''s reading of the Catcher in the Rye goes through the novel chronologically,
+        in a manner perfectly conducive to side-by-side reading, and provides helpful
+        chapters on historical background and critical reception."],"contents":[],"edition":[],"publisher":["New
+        York : Twayne Publishers ; Toronto : Maxwell Macmillan Canada ; New York :
+        Maxwell Macmillan International"],"creation_date":["c1993"],"format":["xvi,
+        107 p. ; 23 cm.."],"is_part_of":[],"earlier_title":[],"later_title":[],"supplement":[],"supplement_to":[],"issued_with":[],"variant_title":[]},"identifiers":{"isbn":["9780805779783","9780805780284","9780805783650","0805779787","0805780289","0805783652"],"issn":[],"eissn":[],"doi":[],"pmid":[],"lccn":["92031048"],"oclc":["26544154"],"record_ids":["bci_aleph000109663","ndu_aleph001025606","hcc_aleph000012199"]},"online_access":{},"primo":{"control":{"sourcerecordid":["$$V000109663$$Obci_aleph000109663","$$V001025606$$Ondu_aleph001025606","$$V000012199$$Ohcc_aleph000012199"],"sourceid":["$$Vbci_aleph$$Obci_aleph000109663","$$Vndu_aleph$$Ondu_aleph001025606","$$Vhcc_aleph$$Ohcc_aleph000012199"],"recordid":"dedupmrg13765448","originalsourceid":["$$VBCI01$$Obci_aleph000109663","$$VNDU01$$Ondu_aleph001025606","$$VHCC01$$Ohcc_aleph000012199"],"sourceformat":["$$VMARC21$$Obci_aleph000109663","$$VMARC21$$Ondu_aleph001025606","$$VMARC21$$Ohcc_aleph000012199"],"sourcesystem":["$$VAleph$$Obci_aleph000109663","$$VAleph$$Ondu_aleph001025606","$$VAleph$$Ohcc_aleph000012199"],"ilsapiid":["$$VBCI01000109663$$Obci_aleph000109663","$$VNDU01001025606$$Ondu_aleph001025606","$$VHCC01000012199$$Ohcc_aleph000012199"]},"display":{"type":"book","title":"The
+        catcher in the rye : innocence under pressure","creator":"Sanford Pinsker","publisher":"New
+        York : Twayne Publishers ; Toronto : Maxwell Macmillan Canada ; New York :
+        Maxwell Macmillan International","creationdate":"c1993","format":"xvi, 107
+        p. ; 23 cm..","identifier":"$$CISBN $$V0805779787 (HC : alk. paper); $$CISBN
+        $$V9780805779783 (HC : alk. paper); $$CISBN $$V0805780289 (PB : alk. paper);
+        $$CISBN $$V9780805780284 (PB : alk. paper); $$CISBN $$V0805783652 (HC); $$CISBN
+        $$V9780805783650 (HC)","subject":["Salinger, J. D. [Jerome David], 1919-2010
+        Catcher in the rye","Caulfield, Holden [Fictitious character]","Runaway teenagers
+        in literature","Teenage boys in literature"],"description":"Sanford Pinsker''s
+        reading of the Catcher in the Rye goes through the novel chronologically,
+        in a manner perfectly conducive to side-by-side reading, and provides helpful
+        chapters on historical background and critical reception.","language":"eng","relation":"$$Cseries
+        $$VTwayne''s masterwork studies ; no. 114","availlibrary":["$$IBCI$$LBCI$$1Main
+        Collection$$2(PS 3537 .A426 C36 1993 )$$Savailable$$31$$40$$5N$$65$$XBCI50$$YBCI$$ZMAIN$$Obci_aleph000109663","$$INDU$$LHESB$$1General
+        Collection$$2(PS 3537 .A426 C36 1993 )$$Savailable$$31$$40$$5N$$617$$XNDU50$$YHESB$$ZGEN$$Ondu_aleph001025606","$$IHCC$$LHCC$$1General
+        Collection$$2(813.54 Sa3P )$$Savailable$$31$$40$$5N$$63$$XHCC50$$YHCC$$ZGEN$$Ohcc_aleph000012199"],"availinstitution":["$$INDU$$Savailable","$$IBCI$$Savailable","$$IHCC$$Savailable"],"availpnx":"available","lds02":["bci_aleph000109663","ndu_aleph001025606","hcc_aleph000012199"],"lds06":"Sanford
+        Pinsker.","lds30":"Twayne''s masterwork studies ; ~~ no. 114"},"links":{"linktoholdings":["$$V$$Taleph_holdings$$IBCI$$Obci_aleph000109663","$$V$$Taleph_holdings$$Obci_aleph000109663","$$V$$Taleph_holdings$$INDU$$Ondu_aleph001025606","$$V$$Taleph_holdings$$Ondu_aleph001025606","$$V$$Taleph_holdings$$IHCC$$Ohcc_aleph000012199","$$V$$Taleph_holdings$$Ohcc_aleph000012199"],"linktoholdsnotexist":["$$V$$Taleph_holdings_not_in_user_institution$$Obci_aleph000109663","$$V$$Taleph_holdings_not_in_user_institution$$Ondu_aleph001025606","$$V$$Taleph_holdings_not_in_user_institution$$Ohcc_aleph000012199"],"backlink":["$$V$$Taleph_backlink$$DBethel
+        Catalog$$Obci_aleph000109663","$$V$$Taleph_backlink$$DNotre Dame Catalog$$Ondu_aleph001025606","$$V$$Taleph_backlink$$DHoly
+        Cross Catalog$$Ohcc_aleph000012199"],"openurl":["$$V$$Topenurl_journal$$Obci_aleph000109663","$$V$$Topenurl_journal$$Ondu_aleph001025606","$$V$$Topenurl_journal$$Ohcc_aleph000012199"],"openurlfulltext":["$$V$$Topenurlfull_journal$$Obci_aleph000109663","$$V$$Topenurlfull_journal$$Ondu_aleph001025606","$$V$$Topenurlfull_journal$$Ohcc_aleph000012199"],"linktoexcerpt":"$$Tsyndetics_excerpt$$Elinktoexcerpt","linktoabstract":"$$Tsyndetics_abstract$$Elinktoabstract","linktouc":["$$Tworldcat_isbn$$Eworldcat","$$Tworldcat_isbn$$Eworldcat","$$Tworldcat_isbn$$Eworldcat"],"thumbnail":["$$Tamazon_thumb","$$Tsyndetics_thumb","$$Tgoogle_thumb"],"lln01":["$$Tfindit_link$$Obci_aleph000109663","$$Tfindit_link$$Ondu_aleph001025606","$$Tfindit_link$$Ohcc_aleph000012199"]},"search":{"title":["The
+        catcher in the rye : innocence under pressure /","The catcher in the rye--innocence
+        under pressure /"],"description":"Sanford Pinsker''s reading of the Catcher
+        in the Rye goes through the novel chronologically, in a manner perfectly conducive
+        to side-by-side reading, and provides helpful chapters on historical background
+        and critical reception.","subject":["Salinger, J. D. (Jerome David), 1919-2010
+        Catcher in the rye.","Caulfield, Holden (Fictitious character)","Runaway teenagers
+        in literature.","Teenage boys in literature.","Holden Caulfield (Fictitious
+        character)","Salinger, J. D. (Jerome David), 1919- Catcher in the rye."],"general":["Twayne
+        Publishers ; Maxwell Macmillan Canada ; Maxwell Macmillan International,","Twayne
+        Publishers,","(OCoLC)26544154","OCoLC26544154","26544154","AES5914","AllDocuments","AAB2444"],"sourceid":["bci_aleph","ndu_aleph","hcc_aleph"],"recordid":["bci_aleph000109663","000109663","109663","ndu_aleph001025606","001025606","1025606","hcc_aleph000012199","000012199","12199"],"searchscope":["bci_aleph","BCI","ndu_aleph","NDU","hcc_aleph","HCC"],"scope":["BCI","bci_aleph","HESB","ndu_aleph","NDU","HCC","hcc_aleph"],"lsr01":["BCI
+        MAIN","BCI Main Collection","HESB GEN","HESB General Collection","HCC GEN","HCC
+        General Collection"],"lsr02":["Pinsker The catcher in the rye","The catcher
+        in the rye Pinsker","Pinsker The catcher in the rye innocence under pressure","The
+        catcher in the rye innocence under pressure Pinsker"],"lsr07":["Pinsker The
+        catcher in the rye","The catcher in the rye Pinsker","Pinsker The catcher
+        in the rye innocence under pressure","The catcher in the rye innocence under
+        pressure Pinsker"],"lsr06":["Twayne Publishers ; Maxwell Macmillan Canada
+        ; Maxwell Macmillan International,","Twayne Publishers,"],"lsr08":["New York
+        : Toronto : New York :","New York :"],"creatorcontrib":["Sanford  Pinsker","Pinsker,
+        S","Sanford Pinsker."],"isbn":["0805779787","9780805779783","0805780289","9780805780284","0805783652","9780805783650"],"creationdate":"1993","startdate":"19930101","enddate":"19931231","addtitle":"Twayne''s
+        masterwork studies ; no. 114","lsr03":"Twayne''s masterwork studies ; no.
+        114","lsr05":["PS 3537 .A426 C36 1993","PS3537.A426C361993","PS3537 .A426
+        C36 1993 :","813.54 Sa3P","813.54Sa3P","813813.54 Sa3P :"],"lsr30":"Twayne''s
+        masterwork studies ; no. 114"},"sort":{"title":"catcher in the rye : innocence
+        under pressure /","creationdate":"1993","author":"Pinsker, Sanford.","lso01":"1993"},"facets":{"topic":["Salinger,
+        J. D. (Jerome David), 1919-2010 Catcher in the rye","Caulfield, Holden (Fictitious
+        character)","Runaway teenagers in literature","Teenage boys in literature","Salinger,
+        J. D. (Jerome David), 1919- Catcher in the rye"],"library":["BCI","HESB","HCC"],"language":"eng","creationdate":"1993","toplevel":"available","prefilter":["books","print"],"rsrctype":["books","print"],"creatorcontrib":"Pinsker,
+        S","lfc03":"Twayne''s masterwork studies","classificationlcc":"P - Language
+        and literature.\u2013American literature","frbrgroupid":"73211258","frbrtype":"6"},"dedup":{"t":"1","c1":"92031048","c2":"0805779787;9780805779783;0805780289;9780805780284;0805783652;9780805783650","c3":"catcherintheryeinnocerpressure","c4":"1993","f1":"92031048","f3":"0805779787;9780805779783;0805780289;9780805780284;0805783652;9780805783650","f5":"catcherintheryeinnocerpressure","f6":"1993","f7":"catcher
+        in the rye innocence under pressure","f8":"nyu","f9":"xvi, 107 p. ;","f10":"twayne
+        publishers","f11":"pinsker sanford"},"frbr":{"t":"99","k1":"$$Kpinsker sanford$$AA","k3":"$$Kcatcher
+        in the rye innocence under pressure$$AT"},"delivery":{"institution":["$$VBCI$$Obci_aleph000109663","$$VNDU$$Ondu_aleph001025606","$$VHCC$$Ohcc_aleph000012199"],"delcategory":["$$VPhysical
+        Item$$Obci_aleph000109663","$$VPhysical Item$$Ondu_aleph001025606","$$VPhysical
+        Item$$Ohcc_aleph000012199"]},"enrichment":{"classificationlcc":"PS 3537 .A426"},"ranking":{"booster1":"1","booster2":"1"},"addata":{"btitle":["The
+        catcher in the rye : innocence under pressure","The catcher in the rye--innocence
+        under pressure"],"risdate":["c1993.","1993."],"isbn":["9780805779783","9780805780284","9780805783650","0805779787","0805780289","0805783652"],"notes":["Includes
+        bibliographical references (p. 102-104) and index.","Includes bibliographical
+        references (p. 99-104) and index."],"abstract":"Sanford Pinsker''s reading
+        of the Catcher in the Rye goes through the novel chronologically, in a manner
+        perfectly conducive to side-by-side reading, and provides helpful chapters
+        on historical background and critical reception.","cop":["New York : Toronto
+        : New York","New York"],"pub":["Twayne Publishers ; Maxwell Macmillan Canada
+        ; Maxwell Macmillan International","Twayne Publishers"],"aulast":"Pinsker","aufirst":"Sanford","au":"Pinsker,
+        Sanford","seriestitle":"Twayne''s masterwork studies ; no. 114","date":"1993","format":"book","genre":"book","ristype":"BOOK","oclcid":"26544154","lccn":"92031048"},"browse":{"title":["$$DThe
+        catcher in the rye : innocence under pressure$$Ecatcher in the rye : innocence
+        under pressure$$UBCI","$$DTwayne''s masterwork studies [series]$$ETwayne''s
+        masterwork studies [series]$$UBCI","$$DThe catcher in the rye--innocence under
+        pressure$$Ecatcher in the rye--innocence under pressure$$UNDU","$$DTwayne''s
+        masterwork studies [series]$$ETwayne''s masterwork studies [series]$$UNDU","$$DThe
+        catcher in the rye : innocence under pressure$$Ecatcher in the rye : innocence
+        under pressure$$UHCC","$$DTwayne''s masterwork studies [series]$$ETwayne''s
+        masterwork studies [series]$$UHCC"],"subject":["$$DCaulfield, Holden (Fictitious
+        character)$$ECaulfield, Holden (Fictitious character)$$UBCI","$$DRunaway teenagers
+        in literature$$ERunaway teenagers in literature$$UBCI","$$DTeenage boys in
+        literature$$ETeenage boys in literature$$UBCI","$$DSalinger, J. D. (Jerome
+        David), 1919-2010 Catcher in the rye$$ESalinger, J. D. (Jerome David), 1919-2010
+        Catcher in the rye$$UBCI","$$DSalinger, J. D. (Jerome David), 1919- Catcher
+        in the rye$$ESalinger, J. D. (Jerome David), 1919- Catcher in the rye$$UNDU","$$DSalinger,
+        J. D. (Jerome David), 1919- Catcher in the rye$$ESalinger, J. D. (Jerome David),
+        1919- Catcher in the rye$$UHCC"],"author":["$$DPinsker, Sanford$$EPinsker,
+        Sanford$$UBCI","$$DPinsker, Sanford$$EPinsker, Sanford$$UNDU","$$DPinsker,
+        Sanford$$EPinsker, Sanford$$UHCC"],"callnumber":["$$IBCI$$DPS 3537 .A426 C36
+        1993$$E0ps   03537.a  42600  c36 1993 $$T0","$$INDU$$DPS 3537 .A426 C36 1993$$E0ps   03537.a  42600  c36
+        1993 $$T0","$$IHCC$$DPS 3537 .A426 C36 1993$$E0ps   03537.a  42600  c36 1993
+        $$T0"],"institution":["BCI","NDU","HCC"]}}}]}'
+    http_version: 
+  recorded_at: Fri, 20 Jun 2014 16:51:37 GMT
+recorded_with: VCR 2.9.2

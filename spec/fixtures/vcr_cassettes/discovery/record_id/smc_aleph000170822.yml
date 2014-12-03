@@ -1,0 +1,153 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3005/1.0/discovery/id.json?auth_token=test&q=smc_aleph000170822
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: 'OK '
+    headers:
+      Cache-Control:
+      - must-revalidate, no-cache, max-age=0
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Request-Method:
+      - PUT, GET, POST, DELETE, OPTIONS
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge
+      X-Request-Id:
+      - 3017118c1c16916b0108e7ba85fd501b
+      X-Runtime:
+      - '0.272571'
+      Server:
+      - WEBrick/1.3.1 (Ruby/2.0.0/2014-02-24)
+      Date:
+      - Wed, 11 Jun 2014 20:06:08 GMT
+      Content-Length:
+      - '13329'
+      Connection:
+      - Keep-Alive
+    body:
+      encoding: UTF-8
+      string: '{"size":1,"display_size":"1","search_term":"smc_aleph000170822","search_scope":"id","search_url":"http://primo-fe1.library.nd.edu:1701/primo_library/libweb/action/dlSearch.do?bulkSize=10&institution=NDU&onCampus=true&query=any%2Ccontains%2Csmc_aleph000170822&search_scope=malc_blended&tab=onesearch&vid=NDU&vl%28freeText0%29=smc_aleph000170822&highlight=true&displayField=title&displayField=creator&indx=1","google_books":{"ids":{"OCLC:23741064":"dedupmrg34637031"},"url":"http://books.google.com/books?bibkeys=OCLC%3A23741064&callback=googleBooksCallback&jscmd=viewapi"},"records":[{"id":"dedupmrg34637031","type":"book","oclc":"23741064","physical":true,"physical_available":true,"electronic":false,"fulltext_available":false,"display":{"type":"Book","title":"The
+        catcher in the rye","creator_contributor":"J. D. Salinger [Jerome David],
+        1919-2010. Robert Creeley 1926-2005. [Former owner] Modern Poetry Collection
+        [University of Notre Dame. Library]","publisher_provider":"Boston : Little,
+        Brown and Co. 1991, c1951","availability":"Available","available_library":"Notre
+        Dame, Hesburgh Library General Collection (PS 3537 .A426 C315 1991 )"},"links":{"detail_url":"http://primo-fe1.library.nd.edu:1701/primo_library/libweb/action/dlDisplay.do?bulkSize=10&institution=NDU&onCampus=true&query=any%2Ccontains%2Csmc_aleph000170822&search_scope=malc_blended&tab=onesearch&vid=NDU&vl%28freeText0%29=smc_aleph000170822&highlight=true&displayField=title&displayField=creator&docId=dedupmrg34637031&indx=1"},"holdings":[{"record_id":"ndu_aleph001906538","institution":"University
+        of Notre Dame","short_institution_name":"Notre Dame","library":"Hesburgh Library","institution_code":"NDU","library_code":"HESB","collection":"General
+        Collection","call_number":"(PS 3537 .A426 C315 1991 )","availability_status_code":"available","number_of_items":"0","multi_volume":"N","number_of_loans":"16","source_institution_code":"NDU50","source_library_code":"HESB","source_sublocation_code":"GEN"},{"record_id":"ndu_aleph001906538","institution":"University
+        of Notre Dame","short_institution_name":"Notre Dame","library":"Hesburgh Library","institution_code":"NDU","library_code":"HESB","collection":"Special
+        Coll.&nbsp;(MR)&nbsp;Books","call_number":"(PS 3537 .A426 C315 1991 )","availability_status_code":"unavailable","number_of_items":"1","multi_volume":"N","number_of_loans":"0","source_institution_code":"NDU50","source_library_code":"MRARE","source_sublocation_code":"MRARE"},{"record_id":"smc_aleph000170822","institution":"Saint
+        Mary''s College","short_institution_name":"Saint Mary''s","library":"Saint
+        Mary''s College","institution_code":"SMC","library_code":"SMC","collection":"General
+        Collection","call_number":"(PS 3537 .A41 C3 )","availability_status_code":"available","number_of_items":"0","multi_volume":"N","number_of_loans":"9","source_institution_code":"SMC50","source_library_code":"SMC","source_sublocation_code":"COLL"}],"openurl":{"au":"Salinger,
+        J. D","aufirst":"J. D.","aulast":"Salinger","btitle":"The catcher in the rye","date":"1991","genre":"book","isbn":"0812415280","pub":"Little,
+        Brown and Co."},"primo":{"control":{"sourcerecordid":["$$V001906538$$Ondu_aleph001906538","$$V000170822$$Osmc_aleph000170822"],"sourceid":["$$Vndu_aleph$$Ondu_aleph001906538","$$Vsmc_aleph$$Osmc_aleph000170822"],"recordid":"dedupmrg34637031","originalsourceid":["$$VNDU01$$Ondu_aleph001906538","$$VSMC01$$Osmc_aleph000170822"],"sourceformat":["$$VMARC21$$Ondu_aleph001906538","$$VMARC21$$Osmc_aleph000170822"],"sourcesystem":["$$VAleph$$Ondu_aleph001906538","$$VAleph$$Osmc_aleph000170822"],"ilsapiid":["$$VNDU01001906538$$Ondu_aleph001906538","$$VSMC01000170822$$Osmc_aleph000170822"]},"display":{"type":"book","title":"The
+        catcher in the rye","creator":"J. D. Salinger [Jerome David], 1919-2010.","contributor":["Robert
+        Creeley 1926-2005. [Former owner]","Modern Poetry Collection [University of
+        Notre Dame. Library]"],"edition":"1st Little Brown Books mass market pbk.
+        ed..","publisher":"Boston : Little, Brown and Co.","creationdate":"1991, c1951","format":"214
+        p. ; 18 cm..","identifier":"$$CISBN $$V0316769487; $$CISBN $$V9780316769488;
+        $$CISBN $$V0808514032; $$CISBN $$V9780808514039; $$CISBN $$V0812415280; $$CISBN
+        $$V9780812415285","subject":["Caulfield, Holden [Fictitious character] --
+        Fiction","Runaway teenagers -- Fiction","New York [N.Y.] -- Fiction"],"description":"Story
+        of Holden Caufield with his idiosyncrasies, penetrating insight, confusion,
+        sensitivity and negativism. Holden, knowing he is to be expelled from school,
+        decides to leave early. He spends three days in New York City and tells the
+        story of what he did and suffered there.","language":"eng","availlibrary":["$$INDU$$LHESB$$1General
+        Collection$$2(PS 3537 .A426 C315 1991 )$$Savailable$$31$$40$$5N$$616$$XNDU50$$YHESB$$ZGEN$$Ondu_aleph001906538","$$INDU$$LHESB$$1Special
+        Coll.&nbsp;(MR)&nbsp;Books$$2(PS 3537 .A426 C315 1991 )$$Sunavailable$$31$$41$$5N$$60$$XNDU50$$YMRARE$$ZMRARE$$Ondu_aleph001906538","$$ISMC$$LSMC$$1General
+        Collection$$2(PS 3537 .A41 C3 )$$Savailable$$31$$40$$5N$$69$$XSMC50$$YSMC$$ZCOLL$$Osmc_aleph000170822"],"availinstitution":["$$INDU$$Savailable","$$ISMC$$Savailable"],"availpnx":"available","lds01":"Ownership
+        History: From the Library of Robert Creeley, acquired from Granary Books (New
+        York) in 2012 (Special Collections copy).","lds02":["ndu_aleph001906538","smc_aleph000170822"],"lds06":"J.D.
+        Salinger.","version":"3"},"links":{"linktoholdings":["$$V$$Taleph_holdings$$INDU$$Ondu_aleph001906538","$$V$$Taleph_holdings$$Ondu_aleph001906538","$$V$$Taleph_holdings$$ISMC$$Osmc_aleph000170822","$$V$$Taleph_holdings$$Osmc_aleph000170822"],"linktoholdsnotexist":["$$V$$Taleph_holdings_not_in_user_institution$$Ondu_aleph001906538","$$V$$Taleph_holdings_not_in_user_institution$$Osmc_aleph000170822"],"backlink":["$$V$$Taleph_backlink$$DNotre
+        Dame Catalog$$Ondu_aleph001906538","$$V$$Taleph_backlink$$DSaint Mary''s Catalog$$Osmc_aleph000170822"],"openurl":["$$V$$Topenurl_journal$$Ondu_aleph001906538","$$V$$Topenurl_journal$$Osmc_aleph000170822"],"openurlfulltext":["$$V$$Topenurlfull_journal$$Ondu_aleph001906538","$$V$$Topenurlfull_journal$$Osmc_aleph000170822"],"linktoexcerpt":"$$Tsyndetics_excerpt$$Elinktoexcerpt","linktoabstract":"$$Tsyndetics_abstract$$Elinktoabstract","linktouc":["$$Tworldcat_isbn$$Eworldcat","$$Tworldcat_isbn$$Eworldcat"],"thumbnail":["$$Tamazon_thumb","$$Tsyndetics_thumb","$$Tgoogle_thumb"],"lln01":["$$Tfindit_link$$Ondu_aleph001906538","$$Tfindit_link$$Osmc_aleph000170822"]},"search":{"creatorcontrib":["J.
+        D.  Salinger  (Jerome David), 1919-2010.","Robert,  Creeley  1926-2005.  Former
+        owner","Creeley, R  Former owner","Modern Poetry Collection (University of
+        Notre Dame. Library)","\u05e1\u05d0\u05dc\u05d9\u05e0\u05d2\u05f3\u05e8, \u05d2\u05f3.
+        \u05d3. (\u05d2\u05f3\u05e8\u05d5\u05dd\u05d3\u05d5\u05d3), 1919\u05be","\u05e1\u05dc\u05d9\u05e0\u05d2\u05f3\u05e8,
+        \u05d2\u05f3\u05d9\u05d9. \u05d3\u05d9,","\u05e1\u05dc\u05d9\u05e0\u05d2\u05f3\u05e8,
+        \u05d2\u05f3.\u05d3., 1919\u05be","Salinger, J. D. (Jerome David), 1919-","Selindzh\u016dr,
+        Dzher\u016dm De\u012dvid, 1919-2010","S\u0117lindzher, Dzh D., 1919-2010","Salinger,
+        Jerome David, 1919-2010","Sarinj\u0101, J. D., 1919-2010","S\u0117lindzher,
+        Dzherom De\u012dvid, 1919-2010","\u0421\u044d\u043b\u0438\u043d\u0434\u0436\u0435\u0440,
+        \u0414\u0436\u0435\u0440\u043e\u043c\u0414., 1919-2010","J. D.  Salinger  (Jerome
+        David), 1919-","Salinger, J","J.D. Salinger.","Salinger, Jerome David, 1919-","S\u0117lindzher,
+        Dzh D., 1919-","Selindzh\u016dr, Dzher\u016dm De\u012dvid, 1919-","Sarinj\u0101,
+        J. D., 1919-"],"description":["Story of Holden Caufield with his idiosyncrasies,
+        penetrating insight, confusion, sensitivity and negativism. Holden, knowing
+        he is to be expelled from school, decides to leave early. He spends three
+        days in New York City and tells the story of what he did and suffered there.","Story
+        of Holden Caulfield with his idiosyncrasies, penetrating insight, confusion,
+        sensitivity and negativism. Holden, knowing he is to be expelled from school,
+        decides to leave early. He spends three days in New York City and tells the
+        story of what he did and suffered there."],"general":["Little, Brown and Co.,","From
+        the Library of Robert Creeley, acquired from Granary Books (New York) in 2012
+        (Special Collections copy).","Little, Brown,","(OCoLC)23741064","OCoLC23741064","23741064","AllDocuments"],"sourceid":["ndu_aleph","smc_aleph"],"recordid":["ndu_aleph001906538","001906538","1906538","smc_aleph000170822","000170822","170822"],"isbn":["0812415280","9780812415285","0316769487","9780316769488","0808514032","9780808514039"],"searchscope":["ndu_aleph","NDU","smc_aleph","SMC"],"scope":["HESB","MRARE","ndu_aleph","NDU","SMC","smc_aleph"],"lsr01":["HESB
+        GEN","HESB General Collection","MRARE MRARE","MRARE Books","SMC COLL","SMC
+        General Collection"],"lsr02":["Salinger Creeley The catcher in the rye","The
+        catcher in the rye Salinger Creeley","Salinger The catcher in the rye","The
+        catcher in the rye Salinger"],"lsr05":["PS 3537 .A426 C315 1991","PS3537.A426C3151991","PS","PS3537
+        .A426 C315 1991 :3537 .A426 C315 1991 :","PS 3537 .A41 C3","PS3537.A41C3","PS3537
+        .A41 C3 :"],"lsr07":["Salinger Creeley The catcher in the rye","The catcher
+        in the rye Salinger Creeley","Salinger The catcher in the rye","The catcher
+        in the rye Salinger"],"lsr06":["Little, Brown and Co.,","Little, Brown,"],"title":"The
+        catcher in the rye /","subject":["Caulfield, Holden (Fictitious character)
+        Fiction.","Runaway teenagers Fiction.","New York (N.Y.) Fiction."],"creationdate":["1991","1951"],"startdate":"19910101","enddate":"19911231","lsr08":"Boston
+        :"},"sort":{"title":"catcher in the rye /","creationdate":"1991","author":"Salinger,
+        J. D. (Jerome David), 1919-2010.","lso01":"1991"},"facets":{"creatorcontrib":["Creeley,
+        R","Modern Poetry Collection (University of Notre Dame. Library)","Salinger,
+        J"],"library":["HESB","SMC"],"language":"eng","creationdate":"1991","topic":["Caulfield,
+        Holden (Fictitious character)\u2013Fiction","Runaway teenagers\u2013Fiction","New
+        York (N.Y.)\u2013Fiction"],"toplevel":"available","prefilter":["books","print"],"rsrctype":["books","print"],"classificationlcc":"P
+        - Language and literature.\u2013American literature","frbrgroupid":"74001730","frbrtype":"6"},"dedup":{"t":"1","c2":"0316769487;9780316769488;0808514032;9780808514039;0812415280;9780812415285","c3":"catcherintherye","c4":"1991","f3":"0316769487;9780316769488;0808514032;9780808514039;0812415280;9780812415285","f5":"catcherintherye","f6":"1991","f7":"catcher
+        in the rye","f8":"mau","f9":"214 p. ;","f10":"little brown and co","f11":"salinger
+        j d jerome david 1919 2010"},"frbr":{"k1":["$$Ksalinger j d jerome david 1919
+        2010$$AA","$$Ksalinger j d jerome david 1919$$AA"],"t":"99","k3":"$$Kcatcher
+        in the rye$$AT"},"delivery":{"institution":["$$VNDU$$Ondu_aleph001906538","$$VSMC$$Osmc_aleph000170822"],"delcategory":["$$VPhysical
+        Item$$Ondu_aleph001906538","$$VPhysical Item$$Osmc_aleph000170822"]},"enrichment":{"classificationlcc":"PS
+        3537 .A426"},"ranking":{"booster1":"1","booster2":"1"},"addata":{"addau":"Creeley,
+        Robert","isbn":["0812415280","9780812415285","0316769487","9780316769488","0808514032","9780808514039"],"abstract":["Story
+        of Holden Caufield with his idiosyncrasies, penetrating insight, confusion,
+        sensitivity and negativism. Holden, knowing he is to be expelled from school,
+        decides to leave early. He spends three days in New York City and tells the
+        story of what he did and suffered there.","Story of Holden Caulfield with
+        his idiosyncrasies, penetrating insight, confusion, sensitivity and negativism.
+        Holden, knowing he is to be expelled from school, decides to leave early.
+        He spends three days in New York City and tells the story of what he did and
+        suffered there."],"pub":["Little, Brown and Co.","Little, Brown"],"aulast":"Salinger","aufirst":"J.
+        D.","au":"Salinger, J. D","btitle":"The catcher in the rye","date":"1991","risdate":"1991,
+        c1951.","format":"book","genre":"book","ristype":"BOOK","cop":"Boston","oclcid":"23741064"},"browse":{"title":["$$DThe
+        catcher in the rye$$Ecatcher in the rye$$UNDU","$$DThe catcher in the rye$$Ecatcher
+        in the rye$$USMC"],"subject":["$$DCaulfield, Holden (Fictitious character)
+        -- Fiction$$ECaulfield, Holden (Fictitious character) Fiction$$UNDU","$$DRunaway
+        teenagers -- Fiction$$ERunaway teenagers Fiction$$UNDU","$$DNew York (N.Y.)
+        -- Fiction$$ENew York (N.Y.) Fiction$$UNDU","$$DCaulfield, Holden (Fictitious
+        character) -- Fiction$$ECaulfield, Holden (Fictitious character) Fiction$$USMC","$$DRunaway
+        teenagers -- Fiction$$ERunaway teenagers Fiction$$USMC","$$DNew York (N.Y.)
+        -- Fiction$$ENew York (N.Y.) Fiction$$USMC"],"author":["$$DSalinger, J. D.
+        (Jerome David), 1919-2010$$ESalinger, J. D. (Jerome David), 1919-2010$$UNDU","$$DCreeley,
+        Robert, 1926-2005$$ECreeley, Robert, 1926-2005$$UNDU","$$DModern Poetry Collection
+        (University of Notre Dame. Library)$$EModern Poetry Collection (University
+        of Notre Dame. Library)$$UNDU","$$DSalinger, J. D. (Jerome David), 1919-$$ESalinger,
+        J. D. (Jerome David), 1919-$$USMC"],"callnumber":["$$INDU$$DPS 3537 .A426
+        C315 1991$$E0ps   03537.a  42600  c315 1991 $$T0","$$ISMC$$DPS 3537 .A426
+        C315 1991$$EPS 3537 .A426 C315 1991 $$T0$$DPS 3537 .A41 C3$$E0ps   03537.a  41000  c3
+        $$T0"],"institution":["NDU","SMC"]}}}]}'
+    http_version: 
+  recorded_at: Wed, 11 Jun 2014 20:06:08 GMT
+recorded_with: VCR 2.6.0

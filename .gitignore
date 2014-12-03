@@ -1,0 +1,8 @@
+db/*.sqlite3
+log/*.log
+tmp/
+.sass-cache/
+vendor/bundle/ruby/
+server/tmp/*
+server/log/*.log
+Gemfile.lock

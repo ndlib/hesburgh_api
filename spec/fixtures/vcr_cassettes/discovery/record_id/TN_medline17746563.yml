@@ -1,0 +1,65 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3005/1.0/discovery/id.json?auth_token=test&q=TN_medline17746563
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: 'OK '
+    headers:
+      Cache-Control:
+      - must-revalidate, no-cache, max-age=0
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Request-Method:
+      - PUT, GET, POST, DELETE, OPTIONS
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge
+      X-Request-Id:
+      - b26f9835d916724c6bf54bffce1fd31c
+      X-Runtime:
+      - '0.378929'
+      Server:
+      - WEBrick/1.3.1 (Ruby/2.0.0/2014-02-24)
+      Date:
+      - Wed, 11 Jun 2014 20:06:09 GMT
+      Content-Length:
+      - '4084'
+      Connection:
+      - Keep-Alive
+    body:
+      encoding: UTF-8
+      string: '{"size":1,"display_size":"1","search_term":"TN_medline17746563","search_scope":"id","search_url":"http://primo-fe1.library.nd.edu:1701/primo_library/libweb/action/dlSearch.do?bulkSize=10&institution=NDU&onCampus=true&query=any%2Ccontains%2CTN_medline17746563&search_scope=malc_blended&tab=onesearch&vid=NDU&vl%28freeText0%29=TN_medline17746563&highlight=true&displayField=title&displayField=creator&loc=local%2Cprimo_central_multiple_fe&indx=1","records":[{"id":"TN_medline17746563","type":"article","physical":false,"physical_available":false,"electronic":true,"fulltext_available":true,"display":{"type":"Article","title":"Article","creator_contributor":"Morgenbesser,
+        S","details":"Science (New York, N.Y.), 1959, Vol.129(3345), pp.347-8 [Peer
+        Reviewed Journal]","publisher_provider":"U.S. National Library of Medicine","availability":"Online
+        access available"},"links":{"detail_url":"http://primo-fe1.library.nd.edu:1701/primo_library/libweb/action/dlDisplay.do?bulkSize=10&institution=NDU&onCampus=true&query=any%2Ccontains%2CTN_medline17746563&search_scope=malc_blended&tab=onesearch&vid=NDU&vl%28freeText0%29=TN_medline17746563&highlight=true&displayField=title&displayField=creator&loc=adaptor%2Cprimo_central_multiple_fe&docId=TN_medline17746563&indx=1","fulltext_url":"http://findtext.library.nd.edu:8889/ndu_local?ctx_enc=info%3Aofi%2Fenc%3AUTF-8&ctx_tim=2014-06-11T16%3A06%3A08EDT&ctx_ver=Z39.88-2004&rft.atitle=Article.&rft.au=Morgenbesser%2C+S&rft.aufirst=S&rft.aulast=Morgenbesser&rft.date=19590206&rft.genre=article&rft.issn=0036-8075&rft.issue=3345&rft.jtitle=Science+%28New+York%2C+N.Y.%29&rft.pages=347-8&rft.spage=347&rft.volume=129","fulltext_url_name":"Access
+        Online"},"holdings":[],"openurl":{"atitle":"Article.","au":"Morgenbesser,
+        S","aufirst":"S","aulast":"Morgenbesser","date":"19590206","genre":"article","issn":"0036-8075","issue":"3345","jtitle":"Science
+        (New York, N.Y.)","pages":"347-8","spage":"347","volume":"129"},"primo":{"control":{"sourcerecordid":"17746563","sourceid":"medline","recordid":"TN_medline17746563","sourceformat":"XML","sourcesystem":"Other"},"display":{"type":"article","title":"Article","creator":"Morgenbesser,
+        S","ispartof":"Science (New York, N.Y.), 1959, Vol.129(3345), pp.347-8","identifier":"<b>ISSN:</b>
+        0036-8075 ; <b>PMID:</b> 17746563 Version:1","language":"eng","source":"U.S.
+        National Library of Medicine","lds50":"peer_reviewed"},"links":{"openurl":"$$Topenurl_article","backlink":"$$Uhttp://pubmed.gov/17746563$$EView_this_record_in_National_Library_of_Medicine","openurlfulltext":"$$Topenurlfull_article","addlink":"$$Uhttp://exlibris-pub.s3.amazonaws.com/aboutMedline.html$$EView_the_National_Library_of_Medicine_Copyright_Statement"},"search":{"creatorcontrib":"Morgenbesser,
+        S","title":"Article.","general":["17746563","English","MEDLINE (NLM)"],"sourceid":"medline","recordid":"medline17746563","issn":["00368075","0036-8075"],"rsrctype":"article","creationdate":"1959","addtitle":"Science
+        (New York, N.Y.)","searchscope":["medline","nlm_medline","MEDLINE"],"scope":["medline","nlm_medline","MEDLINE"]},"sort":{"title":"Article","author":"Morgenbesser,
+        S","creationdate":"19590206"},"facets":{"frbrgroupid":"7342233542826454987","frbrtype":"6","language":"eng","creationdate":"1959","collection":"MEDLINE
+        (NLM)","prefilter":"articles","rsrctype":"articles","creatorcontrib":"Morgenbesser,
+        S","jtitle":"Science (new york, n.y.)","toplevel":"peer_reviewed"},"frbr":{"t":"2","k1":"1959","k2":"00368075","k4":"129","k5":"3345","k6":"347","k7":"science
+        new york n","k8":"rticle","k9":"rticle","k10":"17746563","k15":"smorgenbesser","k16":"morgenbessers"},"delivery":{"delcategory":"Remote
+        Search Resource","fulltext":"fulltext"},"ranking":{"booster1":"1","booster2":"1","pcg_type":"aggregator"},"addata":{"aulast":"Morgenbesser","aufirst":"S","au":"Morgenbesser,
+        S","atitle":"Article.","jtitle":"Science (New York, N.Y.)","date":"19590206","risdate":"19590206","volume":"129","issue":"3345","spage":"347","pages":"347-8","issn":"0036-8075","format":"journal","genre":"article","ristype":"JOUR","pmid":"17746563"}}}]}'
+    http_version: 
+  recorded_at: Wed, 11 Jun 2014 20:06:09 GMT
+recorded_with: VCR 2.6.0

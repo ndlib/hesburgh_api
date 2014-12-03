@@ -1,0 +1,53 @@
+---
+http_interactions:
+- request:
+    method: put
+    uri: http://localhost:3005/2.0/discovery/holds/request?auth_token=test
+    body:
+      encoding: UTF-8
+      string: item_number=PRIMO%24%24%24NDU01001526576%24%24%24NDU50001526576000010&pickup_location=HESB
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: 'OK '
+    headers:
+      Cache-Control:
+      - must-revalidate, no-cache, max-age=0
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Request-Method:
+      - PUT, GET, POST, DELETE, OPTIONS
+      Content-Type:
+      - "*/*; charset=utf-8"
+      X-Ua-Compatible:
+      - IE=Edge
+      X-Request-Id:
+      - ea2aa962052256b6485f5324ac93fa0b
+      X-Runtime:
+      - '0.295279'
+      Server:
+      - WEBrick/1.3.1 (Ruby/2.0.0/2014-05-08)
+      Date:
+      - Wed, 06 Aug 2014 16:27:53 GMT
+      Content-Length:
+      - '43'
+      Connection:
+      - Keep-Alive
+      Set-Cookie:
+      - _api_session=BAh7BkkiD3Nlc3Npb25faWQGOgZFVEkiJTI3ZThlNDFkNGFmMWVmZjczNjQ4ODFlM2ViYWEyNWFhBjsAVA%3D%3D--fe3698cb39ee5dffcba57f5f33deb985a7f9d9d6;
+        path=/; HttpOnly
+    body:
+      encoding: UTF-8
+      string: '{"status":"Success","server_response":"ok"}'
+    http_version: 
+  recorded_at: Wed, 06 Aug 2014 16:27:53 GMT
+recorded_with: VCR 2.9.2

@@ -1,0 +1,53 @@
+---
+http_interactions:
+- request:
+    method: put
+    uri: http://localhost:3005/2.0/discovery/holds/request?auth_token=test
+    body:
+      encoding: UTF-8
+      string: item_number=fake&pickup_location=HESB
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 500
+      message: 'Internal Server Error '
+    headers:
+      Cache-Control:
+      - must-revalidate, no-cache, max-age=0
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Request-Method:
+      - PUT, GET, POST, DELETE, OPTIONS
+      Content-Type:
+      - "*/*; charset=utf-8"
+      X-Ua-Compatible:
+      - IE=Edge
+      X-Request-Id:
+      - 9ecaf7a4e6d9f0d8c820570bd5f209cc
+      X-Runtime:
+      - '0.095231'
+      Server:
+      - WEBrick/1.3.1 (Ruby/2.0.0/2014-05-08)
+      Date:
+      - Wed, 06 Aug 2014 16:37:50 GMT
+      Content-Length:
+      - '64'
+      Connection:
+      - Keep-Alive
+      Set-Cookie:
+      - _api_session=BAh7BkkiD3Nlc3Npb25faWQGOgZFVEkiJTY2N2U4MjI5YWMyZjk3YjA3NzU4MGZhMmZjZGJjMDJhBjsAVA%3D%3D--e4ac822f794cfd778bd8cf67e6a1b02e8b4f90b1;
+        path=/; HttpOnly
+    body:
+      encoding: UTF-8
+      string: '{"status":"Failure","server_response":"Hold request is invalid"}'
+    http_version: 
+  recorded_at: Wed, 06 Aug 2014 16:37:50 GMT
+recorded_with: VCR 2.9.2

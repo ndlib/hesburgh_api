@@ -1,0 +1,181 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3005/2.0/discovery/detail.json?auth_token=test&q=ndu_aleph003042657&vid=NDU
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: 'OK '
+    headers:
+      Cache-Control:
+      - must-revalidate, no-cache, max-age=0
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Request-Method:
+      - PUT, GET, POST, DELETE, OPTIONS
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge
+      X-Request-Id:
+      - 92eae5a053b16c11a513f4b3ab92cba2
+      X-Runtime:
+      - '0.282480'
+      Server:
+      - WEBrick/1.3.1 (Ruby/2.0.0/2014-02-24)
+      Date:
+      - Fri, 20 Jun 2014 16:51:37 GMT
+      Content-Length:
+      - '14177'
+      Connection:
+      - Keep-Alive
+    body:
+      encoding: UTF-8
+      string: '{"records":[{"id":"dedupmrg15940890","type":"book","display":{"title":["Article
+        7 the right to birth registration, name and nationality and the right to know
+        and be cared for by parents"],"creator":{"fulltext":["Ineta Ziemele"],"hierarchical":[["Ineta
+        Ziemele"]]},"contributor":{"fulltext":["ebrary, Inc."],"hierarchical":[["ebrary,
+        Inc."]]},"language":["eng"],"general_notes":[],"source":[],"subjects":{"fulltext":["Children
+        [International law]","Children''s rights","Citizenship","Names, Personal --
+        Law and legislation","Parent and child [Law]","Registers of births, etc","Convention
+        on the Rights of the Child [1989]. Article 7"],"hierarchical":[["Children
+        [International law]"],["Children''s rights"],["Citizenship"],["Names, Personal","Law
+        and legislation"],["Parent and child [Law]"],["Registers of births, etc"],["Convention
+        on the Rights of the Child [1989]. Article 7"]]},"series":[{"series_title":"Commentary
+        on the United Nations Convention on the Rights of the Child.","series_volume":null}],"uniform_titles":{"fulltext":[],"hierarchical":[]},"description":[],"contents":["Convention
+        on the Rights of the Child (1989). Article 7.","Machine generated contents
+        note: Text of article 7","Ch. 1 Introduction","Ch. 2 Comparison with related
+        international human rights provisions","Survey of related international and
+        regional instruments","Analysis of the related international and regional
+        provisions","Ch. 3 Scope of article 7","''[C]hild shall be registered immediately
+        after birth''","''[T]he right from birth to a name''","''[T]he right to acquire
+        a nationality''","''[T]he right to know and be cared for by his or her parents''","''[I]n
+        accordance with their national law ... and ... relevant international instruments''","''[I]n
+        particular where the child would otherwise be stateless''."],"edition":[],"publisher":["Leiden
+        ; Boston : Martinus Nijhoff"],"creation_date":["2007"],"format":["29 p.."],"is_part_of":[],"earlier_title":[],"later_title":[],"supplement":[],"supplement_to":[],"issued_with":[],"variant_title":["Article
+        seven","Article seven."]},"identifiers":{"isbn":["9004148639","9789004148635"],"issn":[],"eissn":[],"doi":[],"pmid":[],"lccn":[],"oclc":["141382994"],"record_ids":["ndu_aleph003042657","ndlaw_iii.b1274315x"]},"online_access":{"ndu":{"fulltext":[{"url":"http://proxy.library.nd.edu/login?url=http://site.ebrary.com/lib/ndlib/Doc?id=10355155","title":"Ebrary","notes":[],"service_type":"ProxyUrl","source":"Primo"}],"table_of_contents":[],"findtext":null,"ill":null,"report_a_problem":null}},"primo":{"control":{"sourcerecordid":["$$V003042657$$Ondu_aleph003042657","$$V.b1274315x$$Ondlaw_iii.b1274315x"],"sourceid":["$$Vndu_aleph$$Ondu_aleph003042657","$$Vndlaw_iii$$Ondlaw_iii.b1274315x"],"recordid":"dedupmrg15940890","originalsourceid":["$$VNDU01$$Ondu_aleph003042657","$$VXNDA$$Ondlaw_iii.b1274315x"],"addsrcrecordid":"$$Vb1274315$$Ondlaw_iii.b1274315x","sourceformat":["$$VMARC21$$Ondu_aleph003042657","$$VMARC
+        Exchange$$Ondlaw_iii.b1274315x"],"sourcesystem":["$$VAleph$$Ondu_aleph003042657","$$VOther$$Ondlaw_iii.b1274315x"],"ilsapiid":["$$VNDU01003042657$$Ondu_aleph003042657","$$VXNDA.b1274315x$$Ondlaw_iii.b1274315x"]},"display":{"type":"book","title":"Article
+        7 the right to birth registration, name and nationality and the right to know
+        and be cared for by parents","creator":"Ineta Ziemele","contributor":"ebrary,
+        Inc.","publisher":"Leiden ; Boston : Martinus Nijhoff","creationdate":"2007","format":"29
+        p..","subject":["Children [International law]","Children''s rights","Citizenship","Names,
+        Personal -- Law and legislation","Parent and child [Law]","Registers of births,
+        etc","Convention on the Rights of the Child [1989]. Article 7"],"language":"eng","relation":["$$Cseries
+        $$VCommentary on the United Nations Convention on the Rights of the Child.","$$Cvar_title
+        $$VArticle seven"],"availlibrary":"$$INDLAW$$1General Collection$$2(K639.A41989
+        Z54 2005 )$$Scheck_holdings$$Ondlaw_iii.b1274315x","availinstitution":"$$INDLAW$$Scheck_holdings","availpnx":"available","lds02":["ndu_aleph003042657","ndlaw_iii.b1274315x"],"lds03":["Convention
+        on the Rights of the Child (1989). Article 7.","Machine generated contents
+        note: Text of article 7 -- Ch. 1 Introduction -- Ch. 2 Comparison with related
+        international human rights provisions -- Survey of related international and
+        regional instruments -- Analysis of the related international and regional
+        provisions -- Ch. 3 Scope of article 7 -- ''[C]hild shall be registered immediately
+        after birth'' -- ''[T]he right from birth to a name'' -- ''[T]he right to
+        acquire a nationality'' -- ''[T]he right to know and be cared for by his or
+        her parents'' -- ''[I]n accordance with their national law ... and ... relevant
+        international instruments'' -- ''[I]n particular where the child would otherwise
+        be stateless''."],"lds06":"Ineta Ziemele.","lds07":["Article seven","Article
+        seven."],"lds30":"Commentary on the United Nations Convention on the Rights
+        of the Child."},"links":{"linktoholdings":["$$V$$Taleph_holdings$$Ondu_aleph003042657","$$V$$Tlaw_holdings$$INDLAW$$Ondlaw_iii.b1274315x"],"linktoholdsnotexist":["$$V$$Taleph_holdings_not_in_user_institution$$Ondu_aleph003042657","$$V$$Tlaw_holdings_not_in_user_institution$$Ondlaw_iii.b1274315x"],"backlink":["$$V$$Taleph_backlink$$DNotre
+        Dame Catalog [electronic resource]$$Ondu_aleph003042657","$$V$$Tlaw_backlink$$Ebacklink_ndl$$Ondlaw_iii.b1274315x"],"linktorsrc":"$$Uhttp://proxy.library.nd.edu/login?url=http://site.ebrary.com/lib/ndlib/Doc?id=10355155$$DNotre
+        Dame Online Access","openurl":["$$V$$Topenurl_journal$$Ondu_aleph003042657","$$V$$Topenurl_journal$$Ondlaw_iii.b1274315x"],"openurlfulltext":["$$V$$Topenurlfull_journal$$Ondu_aleph003042657","$$V$$Topenurlfull_journal$$Ondlaw_iii.b1274315x"],"linktoexcerpt":"$$Tsyndetics_excerpt$$Elinktoexcerpt","linktoabstract":"$$Tsyndetics_abstract$$Elinktoabstract","linktouc":"$$Tworldcat_isbn$$Eworldcat","thumbnail":["$$Tamazon_thumb","$$Tsyndetics_thumb","$$Tgoogle_thumb"],"lln01":["$$Tfindit_link$$Ondu_aleph003042657","$$Tfindit_link$$Ondlaw_iii.b1274315x"]},"search":{"creatorcontrib":["ebrary,
+        Inc.","Ineta  Ziemele","Ziemele, I","Ineta Ziemele."],"title":["Article 7
+        the right to birth registration, name and nationality and the right to know
+        and be cared for by parents /","Article 7 : the right to birth registration,
+        name and nationality and the right to know and be cared for by parents /"],"subject":["Child
+        rights","Children''s human rights","Children''s rights Law and legislation","Rights
+        of the child","Rights of children","Children Civil rights","Birthright citizenship","Citizenship
+        Law and legislation","Citizenship (International law)","Nationality (Citizenship)","National
+        citizenship","Names, Personal Law and legislation","Names, Personal Law","Death
+        records","Records of births, etc.","Birth records","Births, Registers of","Burial
+        statistics","Deaths, Registers of","Registers of deaths","Vital records","Convention
+        on the Rights of the Child (1989). Article 7.","Children (International law)","Children''s
+        rights.","Registers of births, etc.","Names, Personal Law and legislation.","Citizenship.","Parent
+        and child (Law)"],"general":["[electronic resource] :","(CaPaEBR)ebr10355155","CaPaEBRebr10355155","ebr10355155","Martinus
+        Nijhoff,","(OCoLC)141382994","141382994","AllDocuments"],"sourceid":["ndu_aleph","ndlaw_iii"],"recordid":["ndu_aleph003042657","003042657","3042657","ndlaw_iii.b1274315x",".b1274315x"],"addtitle":["A
+        commentary on the United Nations Convention on the Rights of the Child,","Academic
+        complete.","A commentary on the United Nations Convention on the Rights of
+        the Child.","Convention on the Rights of the Child (1989). Article 7.","Commentary
+        on the United Nations Convention on the Rights of the Child."],"searchscope":["ndu_aleph","NDU","ndlaw_iii","NDLAW"],"scope":["ndu_aleph","NDU","ebook","NDUebook","ndlaw_iii","NDLAW"],"alttitle":["Article
+        seven","Right to birth registration, name and nationality and the right to
+        know and be cared for by parents","Right to birth registration, name and nationality
+        and the right to know and be cared for by parents.","Article seven."],"lsr03":["A
+        commentary on the United Nations Convention on the Rights of the Child,","A
+        commentary on the United Nations Convention on the Rights of the Child.","Commentary
+        on the United Nations Convention on the Rights of the Child."],"lsr04":["Academic
+        complete.","Convention on the Rights of the Child (1989). Article 7."],"lsr30":["A
+        commentary on the United Nations Convention on the Rights of the Child,","A
+        commentary on the United Nations Convention on the Rights of the Child.","Commentary
+        on the United Nations Convention on the Rights of the Child."],"isbn":["9004148639","9789004148635"],"toc":"Machine
+        generated contents note: Text of article 7 -- Ch. 1 Introduction -- Ch. 2
+        Comparison with related international human rights provisions -- Survey of
+        related international and regional instruments -- Analysis of the related
+        international and regional provisions -- Ch. 3 Scope of article 7 -- ''[C]hild
+        shall be registered immediately after birth'' -- ''[T]he right from birth
+        to a name'' -- ''[T]he right to acquire a nationality'' -- ''[T]he right to
+        know and be cared for by his or her parents'' -- ''[I]n accordance with their
+        national law ... and ... relevant international instruments'' -- ''[I]n particular
+        where the child would otherwise be stateless''.","creationdate":"2007","startdate":"20070101","enddate":"20071231","lsr02":["Ziemele
+        Article 7","Article 7 Ziemele"],"lsr05":"K639.A41989","lsr07":["Ziemele Article
+        7","Article 7 Ziemele"],"lsr06":"Martinus Nijhoff,","lsr08":"Leiden ; Boston
+        :"},"sort":{"title":"Article 7 the right to birth registration, name and nationality
+        and the right to know and be cared for by parents /","creationdate":"2007","author":"Ziemele,
+        Ineta.","lso01":"2007"},"facets":{"toplevel":"online_resources","prefilter":["electronic","books","print"],"rsrctype":["ebook","books","print"],"lfc04":["Academic
+        complete.","Convention on the Rights of the Child Article 7."],"language":"eng","creationdate":"2007","topic":["Convention
+        on the Rights of the Child (1989). Article 7","Children (International law)","Children''s
+        rights","Registers of births, etc","Names, Personal\u2013Law and legislation","Citizenship","Parent
+        and child (Law)"],"creatorcontrib":"Ziemele, I","library":"NDLAW","lfc03":"Commentary
+        on the United Nations Convention on the Rights of the Child","classificationlcc":"K
+        - Law.\u2013Law in general. Comparative and uniform law. Jurisprudence\u2013Comparative
+        law. International uniform law\u2013Civil law\u2013Persons","frbrgroupid":"77101384","frbrtype":"6"},"dedup":{"t":"1","c2":"9004148639;9789004148635","c3":"article7therighttobirbyparents","c4":"2007","f4":"9004148639;9789004148635","f5":"article7therighttobirbyparents","f6":"2007","f7":"article
+        7 the right to birth registration name and nationality and the right to know
+        and be cared for by parents","f8":"ne","f9":"29 p.","f10":"martinus nijhoff","f11":"ziemele
+        ineta"},"frbr":{"t":"99","k1":"$$Kziemele ineta$$AA","k3":"$$Karticle 7 the
+        right to birth registration name and nationality and the right to know and
+        be cared for by parents$$AT"},"delivery":{"institution":["$$VNDU$$Ondu_aleph003042657","$$VNDLAW$$Ondlaw_iii.b1274315x"],"delcategory":["$$VOnline
+        Resource$$Ondu_aleph003042657","$$VPhysical Item$$Ondlaw_iii.b1274315x"],"resdelscope":"$$Vndrestricted$$Ondu_aleph003042657"},"enrichment":{"classificationlcc":"K639.A4
+        1989"},"ranking":{"booster1":"1","booster2":"1"},"addata":{"btitle":["Article
+        7 the right to birth registration, name and nationality and the right to know
+        and be cared for by parents","Article 7 : the right to birth registration,
+        name and nationality and the right to know and be cared for by parents"],"addtitle":["Article
+        seven","Right to birth registration, name and nationality and the right to
+        know and be cared for by parents"],"aulast":"Ziemele","aufirst":"Ineta","au":"Ziemele,
+        Ineta","seriestitle":"Commentary on the United Nations Convention on the Rights
+        of the Child","date":"2007","risdate":"2007.","isbn":["9004148639","9789004148635"],"format":"book","genre":"book","ristype":"BOOK","notes":"Includes
+        bibliographical references.","cop":"Leiden ; Boston","pub":"Martinus Nijhoff","oclcid":"141382994"},"browse":{"title":["$$DArticle
+        7 the right to birth registration, name and nationality and the right to know
+        and be cared for by parents$$EArticle 7 the right to birth registration, name
+        and nationality and the right to know and be cared for by parents$$UNDU","$$DAcademic
+        complete$$EAcademic complete$$UNDU","$$DArticle 7 : the right to birth registration,
+        name and nationality and the right to know and be cared for by parents$$EArticle
+        7 : the right to birth registration, name and nationality and the right to
+        know and be cared for by parents$$UNDU","$$DRight to birth registration, name
+        and nationality and the right to know and be cared for by parents$$ERight
+        to birth registration, name and nationality and the right to know and be cared
+        for by parents$$UNDU","$$DArticle seven$$EArticle seven$$UNDU","$$DConvention
+        on the Rights of the Child (1989). Article 7$$EConvention on the Rights of
+        the Child (1989). Article 7$$UNDU","$$DCommentary on the United Nations Convention
+        on the Rights of the Child [series]$$ECommentary on the United Nations Convention
+        on the Rights of the Child [series]$$UNDU"],"subject":["$$DChildren (International
+        law)$$EChildren (International law)$$UNDU","$$DChildren''s rights$$EChildren''s
+        rights$$UNDU","$$DRegisters of births, etc$$ERegisters of births, etc$$UNDU","$$DNames,
+        Personal -- Law and legislation$$ENames, Personal Law and legislation$$UNDU","$$DCitizenship$$ECitizenship$$UNDU","$$DParent
+        and child (Law)$$EParent and child (Law)$$UNDU","$$DConvention on the Rights
+        of the Child (1989). Article 7$$EConvention on the Rights of the Child (1989).
+        Article 7$$UNDU"],"author":["$$Debrary, Inc$$Eebrary, Inc$$UNDU","$$DZiemele,
+        Ineta$$EZiemele, Ineta$$UNDU"],"callnumber":["$$INDU$$DK 639 .A4 1989 C657
+        2007eb$$E0k    00639.a  40000  1989 c657 2007eb $$T0","$$INDU$$DK 639 .A41989
+        Z54 2005$$E0k    00639.a  41989  z54 2005 $$T0"],"institution":"NDU"}}}]}'
+    http_version: 
+  recorded_at: Fri, 20 Jun 2014 16:51:37 GMT
+recorded_with: VCR 2.9.2

@@ -1,0 +1,47 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3005/1.0/resources/courses/by_crosslist/201310_JE_JH_JJ_JK.json?auth_token=test
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 401
+      message: 'Unauthorized '
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge
+      Cache-Control:
+      - no-cache
+      X-Request-Id:
+      - 5403047a2e7fc0d1b59d4f97812e2a16
+      X-Runtime:
+      - '0.035907'
+      Server:
+      - WEBrick/1.3.1 (Ruby/2.1.2/2014-05-08)
+      Date:
+      - Mon, 03 Nov 2014 17:54:16 GMT
+      Content-Length:
+      - '41'
+      Connection:
+      - Keep-Alive
+      Set-Cookie:
+      - _api_session=BAh7BkkiD3Nlc3Npb25faWQGOgZFVEkiJTk5NTkzN2Y2ODlmZTlkZTFjMzhhMDRjMTg4MWRhMTFiBjsAVA%3D%3D--87000553c5f28be7f74329c31fb779aa66ef5e64;
+        path=/; HttpOnly
+    body:
+      encoding: UTF-8
+      string: '{"error":"Invalid authentication token."}'
+    http_version: 
+  recorded_at: Mon, 03 Nov 2014 17:54:16 GMT
+recorded_with: VCR 2.9.3

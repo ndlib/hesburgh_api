@@ -1,0 +1,48 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3005/1.0/discovery/id.json?auth_token=test&q=not_an_id
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: 'OK '
+    headers:
+      Cache-Control:
+      - must-revalidate, no-cache, max-age=0
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Request-Method:
+      - PUT, GET, POST, DELETE, OPTIONS
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge
+      X-Request-Id:
+      - 51b950052bc533fd835ec94b5d72886f
+      X-Runtime:
+      - '0.064949'
+      Server:
+      - WEBrick/1.3.1 (Ruby/2.0.0/2014-02-24)
+      Date:
+      - Wed, 11 Jun 2014 20:06:09 GMT
+      Content-Length:
+      - '380'
+      Connection:
+      - Keep-Alive
+    body:
+      encoding: UTF-8
+      string: '{"size":0,"display_size":"0","search_term":"not_an_id","search_scope":"id","search_url":"http://primo-fe1.library.nd.edu:1701/primo_library/libweb/action/dlSearch.do?bulkSize=10&institution=NDU&onCampus=true&query=any%2Ccontains%2Cnot_an_id&search_scope=malc_blended&tab=onesearch&vid=NDU&vl%28freeText0%29=not_an_id&highlight=true&displayField=title&displayField=creator&indx=1"}'
+    http_version: 
+  recorded_at: Wed, 11 Jun 2014 20:06:09 GMT
+recorded_with: VCR 2.6.0

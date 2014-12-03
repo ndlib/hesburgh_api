@@ -1,0 +1,205 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3005/2.0/discovery/holds/list/PRIMO.json?auth_token=test&discovery_id=dedupmrg47445220
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: 'OK '
+    headers:
+      Cache-Control:
+      - must-revalidate, no-cache, max-age=0
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Request-Method:
+      - PUT, GET, POST, DELETE, OPTIONS
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge
+      X-Request-Id:
+      - 7376c5a67b142ffb2666a1fbdf09af67
+      X-Runtime:
+      - '0.475652'
+      Server:
+      - WEBrick/1.3.1 (Ruby/2.0.0/2014-05-08)
+      Date:
+      - Wed, 06 Aug 2014 16:19:04 GMT
+      Content-Length:
+      - '22321'
+      Connection:
+      - Keep-Alive
+    body:
+      encoding: UTF-8
+      string: '{"id":"dedupmrg47445220","type":"book","institution_code":null,"display":{"title":["A
+        history of philosophy"],"creator":{"fulltext":["Frederick C. Copleston [Frederick
+        Charles], 1907-1994."],"hierarchical":[["Frederick C. Copleston [Frederick
+        Charles], 1907-1994."]]},"contributor":{"fulltext":[],"hierarchical":[]},"language":["eng"],"language_note":[],"biographical_note":[],"general_notes":["1","Gift
+        of the Jack Detzler Library Endowment. (2012)"],"source":[],"subjects":{"fulltext":["Philosophy
+        -- History","Philosophy, Ancient","Philosophy, Medieval","Philosophy, Renaissance"],"hierarchical":[["Philosophy","History"],["Philosophy,
+        Ancient"],["Philosophy, Medieval"],["Philosophy, Renaissance"]]},"series":[],"uniform_titles":{"fulltext":[],"hierarchical":[]},"description":[],"contents":["v.
+        1. Greece and Rome","v. 2. Medieval philosophy","v. 3. Late Medieval and Renaissance
+        philosophy","v. 4. Modern philosophy: from Descartes to Leibniz","v. 5. Modern
+        philosophy: the British philosophers from Hobbes to Hume","v. 6. Modern philosophy:
+        from the French Enlightenment to Kant","v. 7. Modern philosophy: from the
+        post-Kantian idealists to Marx, Kierkegaard, and Nietzsche","v. 8. Modern
+        philosophy: empiricism, idealism, and pragmatism in Britain and America","v.
+        9. Modern philosophy: from the French Revolution to Sartre, Camus, and Levi-Strauss.","v.
+        1. Greece and Rome","v. 2. Augustine to Scotus","v. 3.Middle Ages and early
+        Renaissance. v. 4. Modern philosophy: from Descartes to Leibniz.","v. 1. Modern
+        philosophy : Greece and Rome","v. 2. Modern philosophy : Augustine to Scotus","v.
+        3. Modern philosophy : Middle Ages and early Renaissance","v. 4. Modern philosophy
+        : From Decartes to Leibniz","v. 5. Modern philosophy : The British philosophers
+        from Hobbes to Hume","v. 6. Modern philosophy : From the French enlightenment
+        to Kant","v. 7. Modern philosophy : From the post-Kantian idealists to Marx,
+        Kierkegaard, and Nietzsche","v. 8. Modern philosophy : Empiricism, idealism,
+        and pragmatism in Britain and America","v. 9. Modern philosophy : From the
+        French revolution to Sartre, Camus, and Levi-Strauss."],"edition":[],"publisher":["New
+        York, N.Y. : Image Books"],"creation_date":["1993"],"citation":[],"coverage":[],"format":["v.
+        : ill. ; 21 cm.."],"rights":[],"is_part_of":[],"earlier_title":[],"later_title":[],"supplement":[],"supplement_to":[],"issued_with":[],"parallel_title":["Frederick
+        Copleston."],"variant_title":[]},"identifiers":{"isbn":["0385468431","038546844X","0385468458","9780385468459","9780385468442","9780385470421","0385470428","9780385470445","0385470444","9780385470452","0385470452"],"issn":[],"eissn":[],"doi":[],"pmid":[],"lccn":["92034997"],"oclc":["26852017"],"record_ids":["ndlaw_iii.b1098498","ndu_aleph001526576","bci_aleph000136357"]},"holdings":[{"record_id":"ndlaw_iii.b1098498","institution_code":"NDLAW","collection_name":"General
+        Collection","collection_code":null,"call_number":"(B72 .C67 1993 )","number_of_items":null,"multi_volume":null},{"record_id":"ndu_aleph001526576","institution_code":"NDU","collection_name":"General
+        Collection","collection_code":"GEN","call_number":"(B 72 .C62 1993 )","number_of_items":"0","multi_volume":"Y"},{"record_id":"bci_aleph000136357","institution_code":"BCI","collection_name":"Main
+        Collection","collection_code":"MAIN","call_number":"(B 72 .C62 1993 )","number_of_items":"0","multi_volume":"Y"}],"online_access":{"institutions":{"ndu":{"id":"ndu","fulltext":[],"table_of_contents":[],"finding_aids":[],"findtext":{"url":"http://findtext.library.nd.edu:8889/ndu_local?ctx_enc=info%3Aofi%2Fenc%3AUTF-8\u0026ctx_tim=2014-08-06T12%3A19%3A03EDT\u0026ctx_ver=Z39.88-2004\u0026rft.au=Copleston%2C+Frederick+C\u0026rft.aufirst=Frederick+C.\u0026rft.aulast=Copleston\u0026rft.btitle=A+history+of+philosophy\u0026rft.date=1993\u0026rft.genre=book\u0026rft.isbn=0385468431\u0026rft.lccn=92034997\u0026rft.oclcnum=26852017\u0026rft.pub=Image+Books","title":"FindText","notes":[],"service_type":"SFX","source":"findtext","targets_loaded":false,"number_of_targets":0},"ill":null,"report_a_problem":null},"bci":{"id":"bci","fulltext":[],"table_of_contents":[],"finding_aids":[],"findtext":{"url":"http://findtext.library.nd.edu:8889/bethel_local?ctx_enc=info%3Aofi%2Fenc%3AUTF-8\u0026ctx_tim=2014-08-06T12%3A19%3A03EDT\u0026ctx_ver=Z39.88-2004\u0026rft.au=Copleston%2C+Frederick+C\u0026rft.aufirst=Frederick+C.\u0026rft.aulast=Copleston\u0026rft.btitle=A+history+of+philosophy\u0026rft.date=1993\u0026rft.genre=book\u0026rft.isbn=0385468431\u0026rft.lccn=92034997\u0026rft.oclcnum=26852017\u0026rft.pub=Image+Books","title":"FindText","notes":[],"service_type":"SFX","source":"findtext","targets_loaded":false,"number_of_targets":0},"ill":null,"report_a_problem":null},"smc":{"id":"smc","fulltext":[],"table_of_contents":[],"finding_aids":[],"findtext":{"url":"http://findtext.library.nd.edu:8889/smc_local?ctx_enc=info%3Aofi%2Fenc%3AUTF-8\u0026ctx_tim=2014-08-06T12%3A19%3A03EDT\u0026ctx_ver=Z39.88-2004\u0026rft.au=Copleston%2C+Frederick+C\u0026rft.aufirst=Frederick+C.\u0026rft.aulast=Copleston\u0026rft.btitle=A+history+of+philosophy\u0026rft.date=1993\u0026rft.genre=book\u0026rft.isbn=0385468431\u0026rft.lccn=92034997\u0026rft.oclcnum=26852017\u0026rft.pub=Image+Books","title":"FindText","notes":[],"service_type":"SFX","source":"findtext","targets_loaded":false,"number_of_targets":0},"ill":null,"report_a_problem":null},"hcc":{"id":"hcc","fulltext":[],"table_of_contents":[],"finding_aids":[],"findtext":{"url":"http://findtext.library.nd.edu:8889/hcc_local?ctx_enc=info%3Aofi%2Fenc%3AUTF-8\u0026ctx_tim=2014-08-06T12%3A19%3A03EDT\u0026ctx_ver=Z39.88-2004\u0026rft.au=Copleston%2C+Frederick+C\u0026rft.aufirst=Frederick+C.\u0026rft.aulast=Copleston\u0026rft.btitle=A+history+of+philosophy\u0026rft.date=1993\u0026rft.genre=book\u0026rft.isbn=0385468431\u0026rft.lccn=92034997\u0026rft.oclcnum=26852017\u0026rft.pub=Image+Books","title":"FindText","notes":[],"service_type":"SFX","source":"findtext","targets_loaded":false,"number_of_targets":0},"ill":null,"report_a_problem":null}},"table_of_contents":[],"finding_aids":[],"reviews":[],"add_links":[]},"primo":{"control":{"sourcerecordid":["$$V.b1098498$$Ondlaw_iii.b1098498","$$V001526576$$Ondu_aleph001526576","$$V000136357$$Obci_aleph000136357"],"sourceid":["$$Vndlaw_iii$$Ondlaw_iii.b1098498","$$Vndu_aleph$$Ondu_aleph001526576","$$Vbci_aleph$$Obci_aleph000136357"],"recordid":"dedupmrg47445220","originalsourceid":["$$VXNDA$$Ondlaw_iii.b1098498","$$VNDU01$$Ondu_aleph001526576","$$VBCI01$$Obci_aleph000136357"],"addsrcrecordid":"$$Vb109849$$Ondlaw_iii.b1098498","sourceformat":["$$VMARC
+        Exchange$$Ondlaw_iii.b1098498","$$VMARC21$$Ondu_aleph001526576","$$VMARC21$$Obci_aleph000136357"],"sourcesystem":["$$VOther$$Ondlaw_iii.b1098498","$$VAleph$$Ondu_aleph001526576","$$VAleph$$Obci_aleph000136357"],"ilsapiid":["$$VXNDA.b1098498$$Ondlaw_iii.b1098498","$$VNDU01001526576$$Ondu_aleph001526576","$$VBCI01000136357$$Obci_aleph000136357"]},"display":{"type":"book","title":"A
+        history of philosophy","creator":"Frederick C. Copleston [Frederick Charles],
+        1907-1994.","publisher":"New York, N.Y. : Image Books","creationdate":"1993","format":"v.
+        : ill. ; 21 cm..","identifier":"$$CISBN $$V0385468431 (v. 1) :; $$CISBN $$V038546844X
+        (v. 2) :; $$CISBN $$V0385468458 (v. 3) :","subject":["Philosophy -- History","Philosophy,
+        Ancient","Philosophy, Medieval","Philosophy, Renaissance"],"language":"eng","availlibrary":["$$INDLAW$$LNDLAW$$1General
+        Collection$$2(B72 .C67 1993 )$$Scheck_holdings$$Ondlaw_iii.b1098498","$$INDU$$LHESB$$1General
+        Collection$$2(B 72 .C62 1993 )$$Savailable$$31$$40$$5Y$$612$$XNDU50$$YHESB$$ZGEN$$Ondu_aleph001526576","$$IBCI$$LBCI$$1Main
+        Collection$$2(B 72 .C62 1993 )$$Savailable$$39$$40$$5Y$$60$$XBCI50$$YBCI$$ZMAIN$$Obci_aleph000136357"],"availinstitution":["$$INDU$$Savailable","$$IBCI$$Savailable","$$INDLAW$$Scheck_holdings"],"availpnx":"available","lds01":["1","Gift
+        of the Jack Detzler Library Endowment. (2012)"],"lds02":["ndlaw_iii.b1098498","ndu_aleph001526576","bci_aleph000136357"],"lds03":["v.
+        1. Greece and Rome -- v. 2. Medieval philosophy -- v. 3. Late Medieval and
+        Renaissance philosophy -- v. 4. Modern philosophy: from Descartes to Leibniz
+        -- v. 5. Modern philosophy: the British philosophers from Hobbes to Hume --
+        v. 6. Modern philosophy: from the French Enlightenment to Kant -- v. 7. Modern
+        philosophy: from the post-Kantian idealists to Marx, Kierkegaard, and Nietzsche
+        -- v. 8. Modern philosophy: empiricism, idealism, and pragmatism in Britain
+        and America -- v. 9. Modern philosophy: from the French Revolution to Sartre,
+        Camus, and Levi-Strauss.","v. 1. Greece and Rome -- v. 2. Augustine to Scotus
+        -- v. 3.Middle Ages and early Renaissance. v. 4. Modern philosophy: from Descartes
+        to Leibniz.","v. 1. Modern philosophy : Greece and Rome -- v. 2. Modern philosophy
+        : Augustine to Scotus -- v. 3. Modern philosophy : Middle Ages and early Renaissance
+        -- v. 4. Modern philosophy : From Decartes to Leibniz -- v. 5. Modern philosophy
+        : The British philosophers from Hobbes to Hume -- v. 6. Modern philosophy
+        : From the French enlightenment to Kant -- v. 7. Modern philosophy : From
+        the post-Kantian idealists to Marx, Kierkegaard, and Nietzsche -- v. 8. Modern
+        philosophy : Empiricism, idealism, and pragmatism in Britain and America --
+        v. 9. Modern philosophy : From the French revolution to Sartre, Camus, and
+        Levi-Strauss."],"lds06":"Frederick Copleston."},"links":{"linktoholdings":["$$V$$Tlaw_holdings$$INDLAW$$Ondlaw_iii.b1098498","$$V$$Taleph_holdings$$INDU$$Ondu_aleph001526576","$$V$$Taleph_holdings$$Ondu_aleph001526576","$$V$$Taleph_holdings$$IBCI$$Obci_aleph000136357","$$V$$Taleph_holdings$$Obci_aleph000136357"],"linktoholdsnotexist":["$$V$$Tlaw_holdings_not_in_user_institution$$Ondlaw_iii.b1098498","$$V$$Taleph_holdings_not_in_user_institution$$Ondu_aleph001526576","$$V$$Taleph_holdings_not_in_user_institution$$Obci_aleph000136357"],"backlink":["$$V$$Tlaw_backlink$$Ebacklink_ndl$$Ondlaw_iii.b1098498","$$V$$Taleph_backlink$$DNotre
+        Dame Catalog$$Ondu_aleph001526576","$$V$$Taleph_backlink$$DBethel Catalog$$Obci_aleph000136357"],"openurl":["$$V$$Topenurl_journal$$Ondlaw_iii.b1098498","$$V$$Topenurl_journal$$Ondu_aleph001526576","$$V$$Topenurl_journal$$Obci_aleph000136357"],"openurlfulltext":["$$V$$Topenurlfull_journal$$Ondlaw_iii.b1098498","$$V$$Topenurlfull_journal$$Ondu_aleph001526576","$$V$$Topenurlfull_journal$$Obci_aleph000136357"],"linktoexcerpt":"$$Tsyndetics_excerpt$$Elinktoexcerpt","linktoabstract":"$$Tsyndetics_abstract$$Elinktoabstract","linktouc":["$$Tworldcat_isbn$$Eworldcat","$$Tworldcat_isbn$$Eworldcat","$$Tworldcat_isbn$$Eworldcat"],"thumbnail":["$$Tamazon_thumb","$$Tsyndetics_thumb","$$Tgoogle_thumb"],"lln01":["$$Tfindit_link$$Ondlaw_iii.b1098498","$$Tfindit_link$$Ondu_aleph001526576","$$Tfindit_link$$Obci_aleph000136357"]},"search":{"creatorcontrib":["Frederick
+        C.  Copleston  (Frederick Charles), 1907-1994.","Copleston, F","Frederick
+        Copleston.","Copleston, Frederick Charles.","Copleston, Frederick Charles,
+        1907-1994","Copleston, Frederick, 1907-1994","Copleston, F. C. (Frederick
+        Charles), 1907-1994","K\u02bbop\u02bb\u016dls\u016dt\u02bb\u014fn, P\u02bb\u016drederik,
+        1907-1994"],"title":"A history of philosophy /","subject":["Philosophy History.","Philosophy,
+        Ancient.","Philosophy, Medieval.","Philosophy, Renaissance.","Greek philosophy","Roman
+        philosophy","Philosophy, Greek","Philosophy, Roman","Ancient philosophy","Medieval
+        philosophy","Philosophy, Modern 16th century","Renaissance philosophy"],"general":["Image
+        Books,","AllDocuments","(OCoLC)26852017","OCoLC26852017","26852017","AGY0629","Gift
+        of the Jack Detzler Library Endowment. (2012)"],"sourceid":["ndlaw_iii","ndu_aleph","bci_aleph"],"recordid":["ndlaw_iii.b1098498",".b1098498","ndu_aleph001526576","001526576","1526576","bci_aleph000136357","000136357","136357"],"isbn":["0385468431","9780385468435","038546844X","9780385468442","0385468458","9780385468459","9780385470421","0385470428","9780385470445","0385470444","9780385470452","0385470452"],"toc":["v.
+        1. Greece and Rome -- v. 2. Medieval philosophy -- v. 3. Late Medieval and
+        Renaissance philosophy -- v. 4. Modern philosophy: from Descartes to Leibniz
+        -- v. 5. Modern philosophy: the British philosophers from Hobbes to Hume --
+        v. 6. Modern philosophy: from the French Enlightenment to Kant -- v. 7. Modern
+        philosophy: from the post-Kantian idealists to Marx, Kierkegaard, and Nietzsche
+        -- v. 8. Modern philosophy: empiricism, idealism, and pragmatism in Britain
+        and America -- v. 9. Modern philosophy: from the French Revolution to Sartre,
+        Camus, and Levi-Strauss.","v. 1. Greece and Rome -- v. 2. Augustine to Scotus
+        -- v. 3.Middle Ages and early Renaissance. v. 4. Modern philosophy: from Descartes
+        to Leibniz.","v. 1. Modern philosophy : Greece and Rome -- v. 2. Modern philosophy
+        : Augustine to Scotus -- v. 3. Modern philosophy : Middle Ages and early Renaissance
+        -- v. 4. Modern philosophy : From Decartes to Leibniz -- v. 5. Modern philosophy
+        : The British philosophers from Hobbes to Hume -- v. 6. Modern philosophy
+        : From the French enlightenment to Kant -- v. 7. Modern philosophy : From
+        the post-Kantian idealists to Marx, Kierkegaard, and Nietzsche -- v. 8. Modern
+        philosophy : Empiricism, idealism, and pragmatism in Britain and America --
+        v. 9. Modern philosophy : From the French revolution to Sartre, Camus, and
+        Levi-Strauss."],"creationdate":["1993","9999"],"startdate":"19930101","enddate":["19931231","99991231"],"searchscope":["ndlaw_iii","NDLAW","NDU","ndu_aleph","bci_aleph","BCI"],"scope":["ndlaw_iii","NDLAW","NDU","HESB","ndu_aleph","BCI","bci_aleph"],"lsr02":["Copleston
+        A history of philosophy","A history of philosophy Copleston"],"lsr07":["Copleston
+        A history of philosophy","A history of philosophy Copleston"],"lsr05":["B72","B
+        72 .C62 1993","B72.C621993","B72 .C62 1993 :"],"lsr06":"Image Books,","lsr08":["New
+        York, N.Y. :","New York :"],"lsr01":["HESB GEN","HESB General Collection","BCI
+        MAIN","BCI Main Collection"]},"sort":{"title":"history of philosophy /","creationdate":"1993","author":"Copleston,
+        Frederick C. (Frederick Charles), 1907-1994.","lso01":"1993"},"facets":{"language":"eng","creationdate":"1993","topic":["Philosophy\u2013History","Philosophy,
+        Ancient","Philosophy, Medieval","Philosophy, Renaissance"],"prefilter":["books","print"],"rsrctype":["books","print"],"creatorcontrib":"Copleston,
+        F","library":["NDLAW","HESB","BCI"],"classificationlcc":"B - Philosophy. Psychology.
+        Religion\u2013Philosophy (General)\u2013General works","toplevel":"available","frbrgroupid":"73665916","frbrtype":"5"},"dedup":{"t":"1","c1":"92034997","c2":"0385468431;038546844X;0385468458","c3":"historyofphilosophy","c4":"1993","f1":"92034997","f3":"0385468431;038546844X;0385468458","f5":"historyofphilosophy","f6":"1993","f7":"history
+        of philosophy","f8":"nyu","f9":"v. :","f10":"image books","f11":"copleston
+        frederick c frederick charles 1907 1994"},"frbr":{"t":"99","k1":"$$Kcopleston
+        frederick c frederick charles 1907 1994$$AA","k3":"$$Khistory of philosophy$$AT"},"delivery":{"institution":["$$VNDLAW$$Ondlaw_iii.b1098498","$$VNDU$$Ondlaw_iii.b1098498","$$VNDU$$Ondu_aleph001526576","$$VBCI$$Obci_aleph000136357"],"delcategory":["$$VPhysical
+        Item$$Ondlaw_iii.b1098498","$$VPhysical Item$$Ondu_aleph001526576","$$VPhysical
+        Item$$Obci_aleph000136357"]},"enrichment":{"classificationlcc":"B72"},"ranking":{"booster1":"1","booster2":"1"},"addata":{"aulast":"Copleston","aufirst":"Frederick
+        C.","au":"Copleston, Frederick C","btitle":"A history of philosophy","date":"1993","risdate":["1993.","1993-"],"isbn":["0385468431","038546844X","0385468458","9780385468459","9780385468442","9780385470421","0385470428","9780385470445","0385470444","9780385470452","0385470452"],"format":"book","genre":"book","ristype":"BOOK","notes":"Includes
+        bibliographical references and indexes.","cop":["New York, N.Y.","New York"],"pub":"Image
+        Books","lccn":"92034997","oclcid":"26852017"},"browse":{"title":["$$DA history
+        of philosophy$$Ehistory of philosophy$$UNDU","$$DA history of philosophy$$Ehistory
+        of philosophy$$UBCI"],"subject":["$$DPhilosophy -- History$$EPhilosophy History$$UNDU","$$DPhilosophy,
+        Ancient$$EPhilosophy, Ancient$$UNDU","$$DPhilosophy, Medieval$$EPhilosophy,
+        Medieval$$UNDU","$$DPhilosophy, Renaissance$$EPhilosophy, Renaissance$$UNDU","$$DPhilosophy,
+        Ancient$$EPhilosophy, Ancient$$UBCI","$$DPhilosophy, Medieval$$EPhilosophy,
+        Medieval$$UBCI","$$DPhilosophy, Renaissance$$EPhilosophy, Renaissance$$UBCI"],"author":["$$DCopleston,
+        Frederick C. (Frederick Charles), 1907-1994$$ECopleston, Frederick C. (Frederick
+        Charles), 1907-1994$$UNDU","$$DCopleston, Frederick C. (Frederick Charles),
+        1907-1994$$ECopleston, Frederick C. (Frederick Charles), 1907-1994$$UBCI"],"callnumber":["$$INDU$$DB
+        72 .C67 1993$$E0b    00072.c  67000  1993 $$T0","$$INDU$$DB 72 .C62 1993$$E0b    00072.c  62000  1993
+        $$T0","$$IBCI$$DB 72 .C62 1993$$E0b    00072.c  62000  1993 $$T0"],"institution":["NDU","BCI"]}},"holds_list":{"volumes":[{"description":"v.1","enumeration":"1","sort_order":"1"},{"description":"v.2","enumeration":"2","sort_order":"2"},{"description":"v.3","enumeration":"3","sort_order":"3"},{"description":"v.4","enumeration":"4","sort_order":"4"},{"description":"v.5","enumeration":"5","sort_order":"5"},{"description":"v.6","enumeration":"6","sort_order":"6"},{"description":"v.7","enumeration":"7","sort_order":"7"},{"description":"v.8","enumeration":"8","sort_order":"8"},{"description":"v.9","enumeration":"9","sort_order":"9"}],"items_by_enumeration":[{"enumeration":"1","items":[{"institution_code":"BCI","pickup_locations":[{"code":"BCI","content":"Bethel
+        College"},{"code":"HCC_B","content":"Holy Cross (allow extra time)"},{"code":"NDU_B","content":"Hesburgh
+        (allow extra time)"},{"code":"SMC_B","content":"Saint Mary''s(allow extra
+        time)"}],"description":"v.1","bib_id":"000136357","item_id":"PRIMO$$$BCI01000136357$$$BCI50000136357000010","status_message":"","location":"B
+        72 .C62 1993"}]},{"enumeration":"2","items":[{"institution_code":"BCI","pickup_locations":[{"code":"BCI","content":"Bethel
+        College"},{"code":"HCC_B","content":"Holy Cross (allow extra time)"},{"code":"NDU_B","content":"Hesburgh
+        (allow extra time)"},{"code":"SMC_B","content":"Saint Mary''s(allow extra
+        time)"}],"description":"v.2","bib_id":"000136357","item_id":"PRIMO$$$BCI01000136357$$$BCI50000136357000020","status_message":"","location":"B
+        72 .C62 1993"}]},{"enumeration":"3","items":[{"institution_code":"BCI","pickup_locations":[{"code":"BCI","content":"Bethel
+        College"},{"code":"HCC_B","content":"Holy Cross (allow extra time)"},{"code":"NDU_B","content":"Hesburgh
+        (allow extra time)"},{"code":"SMC_B","content":"Saint Mary''s(allow extra
+        time)"}],"description":"v.3","bib_id":"000136357","item_id":"PRIMO$$$BCI01000136357$$$BCI50000136357000030","status_message":"","location":"B
+        72 .C62 1993"}]},{"enumeration":"4","items":[{"institution_code":"HESB","pickup_locations":[{"code":"NDCAM","content":"Notre
+        Dame Dept. Delivery"},{"code":"HESB","content":"Hesburgh Library"},{"code":"ARCHT","content":"Architecture
+        [117 Bond]"},{"code":"MATH","content":"Mathematics [001 Hayes-Healy]"},{"code":"CHEMP","content":"Chem/Physics
+        [231 Nieuwland]"},{"code":"ENGIN","content":"Engineering [149 Fitzpatrick]"},{"code":"BIC","content":"Business
+        Lib. [L001 Mendoza]"},{"code":"BCI_N","content":"Bethel (allow extra time)"},{"code":"HCC_N","content":"Holy
+        Cross (allow extra time)"},{"code":"SMC_N","content":"Saint Mary''s(allow
+        extra time)"}],"description":"v. 4","bib_id":"001526576","item_id":"PRIMO$$$NDU01001526576$$$NDU50001526576000010","status_message":"Requested","location":"B
+        72 .C62 1993"},{"institution_code":"BCI","pickup_locations":[{"code":"BCI","content":"Bethel
+        College"},{"code":"HCC_B","content":"Holy Cross (allow extra time)"},{"code":"NDU_B","content":"Hesburgh
+        (allow extra time)"},{"code":"SMC_B","content":"Saint Mary''s(allow extra
+        time)"}],"description":"v.4","bib_id":"000136357","item_id":"PRIMO$$$BCI01000136357$$$BCI50000136357000040","status_message":"","location":"B
+        72 .C62 1993"}]},{"enumeration":"5","items":[{"institution_code":"BCI","pickup_locations":[{"code":"BCI","content":"Bethel
+        College"},{"code":"HCC_B","content":"Holy Cross (allow extra time)"},{"code":"NDU_B","content":"Hesburgh
+        (allow extra time)"},{"code":"SMC_B","content":"Saint Mary''s(allow extra
+        time)"}],"description":"v.5","bib_id":"000136357","item_id":"PRIMO$$$BCI01000136357$$$BCI50000136357000050","status_message":"","location":"B
+        72 .C62 1993"}]},{"enumeration":"6","items":[{"institution_code":"BCI","pickup_locations":[{"code":"BCI","content":"Bethel
+        College"},{"code":"HCC_B","content":"Holy Cross (allow extra time)"},{"code":"NDU_B","content":"Hesburgh
+        (allow extra time)"},{"code":"SMC_B","content":"Saint Mary''s(allow extra
+        time)"}],"description":"v.6","bib_id":"000136357","item_id":"PRIMO$$$BCI01000136357$$$BCI50000136357000060","status_message":"","location":"B
+        72 .C62 1993"}]},{"enumeration":"7","items":[{"institution_code":"BCI","pickup_locations":[{"code":"BCI","content":"Bethel
+        College"},{"code":"HCC_B","content":"Holy Cross (allow extra time)"},{"code":"NDU_B","content":"Hesburgh
+        (allow extra time)"},{"code":"SMC_B","content":"Saint Mary''s(allow extra
+        time)"}],"description":"v.7","bib_id":"000136357","item_id":"PRIMO$$$BCI01000136357$$$BCI50000136357000070","status_message":"","location":"B
+        72 .C62 1993"}]},{"enumeration":"8","items":[{"institution_code":"BCI","pickup_locations":[{"code":"BCI","content":"Bethel
+        College"},{"code":"HCC_B","content":"Holy Cross (allow extra time)"},{"code":"NDU_B","content":"Hesburgh
+        (allow extra time)"},{"code":"SMC_B","content":"Saint Mary''s(allow extra
+        time)"}],"description":"v.8","bib_id":"000136357","item_id":"PRIMO$$$BCI01000136357$$$BCI50000136357000080","status_message":"","location":"B
+        72 .C62 1993"}]},{"enumeration":"9","items":[{"institution_code":"BCI","pickup_locations":[{"code":"BCI","content":"Bethel
+        College"},{"code":"HCC_B","content":"Holy Cross (allow extra time)"},{"code":"NDU_B","content":"Hesburgh
+        (allow extra time)"},{"code":"SMC_B","content":"Saint Mary''s(allow extra
+        time)"}],"description":"v.9","bib_id":"000136357","item_id":"PRIMO$$$BCI01000136357$$$BCI50000136357000090","status_message":"","location":"B
+        72 .C62 1993"}]}]}}'
+    http_version: 
+  recorded_at: Wed, 06 Aug 2014 16:19:04 GMT
+recorded_with: VCR 2.9.2

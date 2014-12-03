@@ -1,0 +1,6 @@
+development:
+  token: test
+  url: http://localhost:3005
+test:
+  token: test
+  url: http://localhost:3005

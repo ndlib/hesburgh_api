@@ -1,0 +1,141 @@
+[
+{
+    term_prefix: "201410",
+    alpha_prefix: "ARCH",
+    number: 21111,
+    course_title: "course_title",
+    section_groups: [
+    {
+        section_group_id: "201410_11596",
+        primary_instructor: {
+            id: "netid",
+            identifier_contexts: {
+                ldap: "uid",
+                staff_directory: "email"
+            },
+            identifier: "by_netid",
+            netid: "netid",
+            first_name: "Dalia",
+            last_name: "Salinas",
+            full_name: "Dalia Salinas",
+            ndguid: "ndguid",
+            primary_affiliation: "Faculty",
+            contact_information: {
+                email: "netid@nd.edu",
+                campus_address: "123 Some Building&#10;Notre Dame, IN 46556-5652"
+            },
+            position_title: "Professor",
+            campus_department: "School of Architecture"
+        },
+        sections: [
+        {
+            section_id: "201410_11596",
+            supersection_id: "",
+            instructors: [
+            {
+                id: "netid",
+                identifier_contexts: {
+                    ldap: "uid",
+                    staff_directory: "email"
+                },
+                identifier: "by_netid",
+                netid: "netid",
+                first_name: "Dalia",
+                last_name: "Salinas",
+                full_name: "Dalia Salinas",
+                ndguid: "ndguid",
+                primary_affiliation: "Faculty",
+                contact_information: {
+                    email: "netid@nd.edu",
+                    campus_address: "123 Some Building&#10;Notre Dame, IN 46556-5652"
+                },
+                position_title: "Professor",
+                campus_department: "School of Architecture"
+            }
+            ],
+                term: "201410",
+                course_triple: "201410_ARCH_21111",
+                course_title: "Design I",
+                alpha_prefix: "ARCH",
+                number: 21111,
+                section_number: 1,
+                crn: "11596",
+                enrollments: [
+                    "netid1",
+                "netid2",
+                "netid3",
+                "netid4",
+                "netid5",
+                    ]
+        }
+        ],
+            crosslist_id: "201410_11596"
+    },
+    {
+        section_group_id: "201410_14105",
+        primary_instructor: {
+            id: "netid6",
+            identifier_contexts: {
+                ldap: "uid",
+                staff_directory: "email"
+            },
+            identifier: "by_netid",
+            netid: "netid6",
+            first_name: "Janessa",
+            last_name: "Sanchez",
+            full_name: "Janessa Sanchez",
+            ndguid: "ndguid2",
+            primary_affiliation: "Faculty",
+            contact_information: {
+                email: "netid6@nd.edu"
+            },
+            position_title: "Professor",
+            campus_department: "School of Architecture"
+        },
+        sections: [
+        {
+            section_id: "201410_14105",
+            supersection_id: "",
+            instructors: [
+            {
+                id: "netid6",
+                identifier_contexts: {
+                    ldap: "uid",
+                    staff_directory: "email"
+                },
+                identifier: "by_netid",
+                netid: "netid6",
+                first_name: "Janessa",
+                last_name: "Sanchez",
+                full_name: "Janessa Sanchez",
+                ndguid: "ndguid2",
+                primary_affiliation: "Faculty",
+                contact_information: {
+                    email: "netid6@nd.edu"
+                },
+                position_title: "Professor",
+                campus_department: "School of Architecture"
+            }
+            ],
+                term: "201410",
+                course_triple: "201410_ARCH_21111",
+                course_title: "Design I",
+                alpha_prefix: "ARCH",
+                number: 21111,
+                section_number: 2,
+                crn: "14105",
+                enrollments: [
+                    "netid7",
+                "netid8",
+                "netid9",
+                "netid10",
+                "netid11",
+                    ]
+        }
+        ],
+            crosslist_id: "201410_14105"
+    }
+    ],
+        supersections: ""
+}
+]

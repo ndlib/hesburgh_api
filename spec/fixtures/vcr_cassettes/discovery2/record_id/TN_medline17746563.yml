@@ -1,0 +1,62 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3005/2.0/discovery/detail.json?auth_token=test&q=TN_medline17746563&vid=NDU
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: 'OK '
+    headers:
+      Cache-Control:
+      - must-revalidate, no-cache, max-age=0
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Request-Method:
+      - PUT, GET, POST, DELETE, OPTIONS
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge
+      X-Request-Id:
+      - a2d3f6d765b0db816428d6d3fee7d783
+      X-Runtime:
+      - '0.378698'
+      Server:
+      - WEBrick/1.3.1 (Ruby/2.0.0/2014-02-24)
+      Date:
+      - Fri, 20 Jun 2014 16:51:37 GMT
+      Content-Length:
+      - '2956'
+      Connection:
+      - Keep-Alive
+    body:
+      encoding: UTF-8
+      string: '{"records":[{"id":"TN_medline17746563","type":"article","display":{"title":["Article"],"creator":{"fulltext":["Morgenbesser,
+        S"],"hierarchical":[["Morgenbesser, S"]]},"contributor":{"fulltext":[],"hierarchical":[]},"language":["eng"],"general_notes":[],"source":["U.S.
+        National Library of Medicine"],"subjects":{"fulltext":[],"hierarchical":[]},"series":[],"uniform_titles":{"fulltext":[],"hierarchical":[]},"description":[],"contents":[],"edition":[],"publisher":[],"creation_date":[],"format":[],"is_part_of":["Science
+        (New York, N.Y.), 1959, Vol.129(3345), pp.347-8"],"earlier_title":[],"later_title":[],"supplement":[],"supplement_to":[],"issued_with":[],"variant_title":[]},"identifiers":{"isbn":[],"issn":["0036-8075"],"eissn":[],"doi":[],"pmid":["17746563"],"lccn":[],"oclc":[],"record_ids":[]},"online_access":{},"primo":{"control":{"sourcerecordid":"17746563","sourceid":"medline","recordid":"TN_medline17746563","sourceformat":"XML","sourcesystem":"Other"},"display":{"type":"article","title":"Article","creator":"Morgenbesser,
+        S","ispartof":"Science (New York, N.Y.), 1959, Vol.129(3345), pp.347-8","identifier":"<b>ISSN:</b>
+        0036-8075 ; <b>PMID:</b> 17746563 Version:1","language":"eng","source":"U.S.
+        National Library of Medicine","lds50":"peer_reviewed"},"links":{"openurl":"$$Topenurl_article","backlink":"$$Uhttp://pubmed.gov/17746563$$EView_this_record_in_National_Library_of_Medicine","openurlfulltext":"$$Topenurlfull_article","addlink":"$$Uhttp://exlibris-pub.s3.amazonaws.com/aboutMedline.html$$EView_the_National_Library_of_Medicine_Copyright_Statement"},"search":{"creatorcontrib":"Morgenbesser,
+        S","title":"Article.","general":["17746563","English","MEDLINE (NLM)"],"sourceid":"medline","recordid":"medline17746563","issn":["00368075","0036-8075"],"rsrctype":"article","creationdate":"1959","addtitle":"Science
+        (New York, N.Y.)","searchscope":["medline","nlm_medline","MEDLINE"],"scope":["medline","nlm_medline","MEDLINE"]},"sort":{"title":"Article","author":"Morgenbesser,
+        S","creationdate":"19590206"},"facets":{"frbrgroupid":"7342233542826454987","frbrtype":"6","language":"eng","creationdate":"1959","collection":"MEDLINE
+        (NLM)","prefilter":"articles","rsrctype":"articles","creatorcontrib":"Morgenbesser,
+        S","jtitle":"Science (new york, n.y.)","toplevel":"peer_reviewed"},"frbr":{"t":"2","k1":"1959","k2":"00368075","k4":"129","k5":"3345","k6":"347","k7":"science
+        new york n","k8":"rticle","k9":"rticle","k10":"17746563","k15":"smorgenbesser","k16":"morgenbessers"},"delivery":{"delcategory":"Remote
+        Search Resource","fulltext":"fulltext"},"ranking":{"booster1":"1","booster2":"1","pcg_type":"aggregator"},"addata":{"aulast":"Morgenbesser","aufirst":"S","au":"Morgenbesser,
+        S","atitle":"Article.","jtitle":"Science (New York, N.Y.)","date":"19590206","risdate":"19590206","volume":"129","issue":"3345","spage":"347","pages":"347-8","issn":"0036-8075","format":"journal","genre":"article","ristype":"JOUR","pmid":"17746563"}}}]}'
+    http_version: 
+  recorded_at: Fri, 20 Jun 2014 16:51:37 GMT
+recorded_with: VCR 2.9.2
