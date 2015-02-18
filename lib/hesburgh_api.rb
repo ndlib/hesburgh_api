@@ -1,4 +1,4 @@
 require "hesburgh_api/engine"
 
-module HesburghApi
+module HesburghAPI
 end

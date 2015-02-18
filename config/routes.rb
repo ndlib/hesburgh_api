@@ -1,2 +1,2 @@
-HesburghApi::Engine.routes.draw do
+HesburghAPI::Engine.routes.draw do
 end

@@ -6,7 +6,7 @@ require "hesburgh_api/version"
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
   s.name        = "hesburgh_api"
-  s.version     = HesburghApi::VERSION
+  s.version     = HesburghAPI::VERSION
   s.authors     = ["Jon Hartzler"]
   s.email       = ["jhartzler@nd.edu"]
   s.homepage    = "http://library.nd.edu"

@@ -1,4 +1,4 @@
-module HesburghApi
+module HesburghAPI
   module ApplicationHelper
   end
 end

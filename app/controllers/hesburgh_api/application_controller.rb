@@ -1,4 +1,4 @@
-module HesburghApi
+module HesburghAPI
   class ApplicationController < ActionController::Base
   end
 end
