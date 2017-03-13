@@ -40,5 +40,15 @@ module HesburghAPI2
         put("holds/request", params)
     end
 
+
+    def self.holdings(q, vid = 'NDU')
+      result = get_json("holdings", {q: q, vid: vid})
+
+      if result.blank?
+        raise NotFound.new()
+      else
+        result['records'].first
+      end
+    end
   end
 end
