@@ -11,7 +11,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        ruby: [ 2.1, 2.2 ]
+        ruby: [ 2.1 ]
     runs-on: ubuntu-20.04
 
     steps:
@@ -26,10 +26,6 @@ jobs:
     # Install dependencies
       - name: Run bundle install
         run: bundle install
-
-    # Install test-unit gem
-      - name: Install test-unit gem for rspec on Ruby >= 2.2
-        run: gem install test-unit
 
     # Run test suite
       - name: Run rspec
