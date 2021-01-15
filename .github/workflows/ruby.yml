@@ -27,6 +27,10 @@ jobs:
       - name: Run bundle install
         run: bundle install
 
+    # Install test-unit gem
+      - name: Install test-unit gem for rspec on Ruby >= 2.2
+        run: gem install test-unit
+
     # Run test suite
       - name: Run rspec
         run: bundle exec rspec spec
