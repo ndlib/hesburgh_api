@@ -35,8 +35,12 @@ module HesburghAPI
       end
 
       def self.yml
-        @yml ||= YAML.load_file(File.join(Rails.root, "config", 'hesburgh_api.yml'))
-        @yml[Rails.env]
+        path = File.join(Rails.root, "config", "hesburgh_api.yml")
+        template = ERB.new(File.read(path))
+        processed = template.result(binding)
+
+        @yml ||= YAML.load(processed)
+        @yml.fetch(Rails.env)
       end
 
   end
